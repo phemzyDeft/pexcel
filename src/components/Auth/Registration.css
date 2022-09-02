@@ -1,0 +1,42 @@
+.for_1 {
+    padding: 2px 1rem;
+    border: 1px solid #e8e8e8;
+    border-radius: 999px;
+    background-color: #fff !important
+  }
+  
+  .for_1:focus-within {
+    border: 1px solid #5f04f6
+  }
+
+  .for_1[readonly] {
+    background-color: #e9ecef !important
+  }
+
+  .input-group-prepend .input-group-text {
+    padding-left: .5rem;
+    padding-right: .75rem
+  }
+
+  .the-input {
+    border-radius: 0 !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+    min-height: 50px;
+    padding: 6px 0;
+    margin: 0;
+    font-size: 14px;
+    flex-grow: 1;
+    background-color: #fff
+  }
+  .the-input[readonly] {
+    background: none
+  }
+  
+  .the-input:focus {
+    box-shadow: none !important
+  }
+  .form-group{
+    margin: 0;
+  }
