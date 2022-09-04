@@ -2,8 +2,8 @@ import React from 'react';
 
 const RIghtSideBar = (props) => {
   return (
-    <div className="col-3 col-md-3">
-    <div className='' style={{width: "285px", height: "calc(100vh - 60px)", position: "fixed", top: "calc(60px)", overflowY: 'scroll', height: '70%'}}>
+    <div className="col-0 col-md-3 col-lg-3 col-xl-3 col-sm-0">
+    <div className='' style={{width: "285px", position: "fixed", overflowY: 'scroll', height: '70%'}}>
     <div class="_1kMqXwfg5O">
       <div class="_11UHTgcafn">
         <h4>Recent Activities</h4>

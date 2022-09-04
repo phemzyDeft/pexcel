@@ -1,5 +1,4 @@
-import Banner from './components/AdvertBanner/Banner';
-import Navbar from './components/navbar/Navbar';
+import Main from './components/main/Main';
 import RIghtSideBar from './components/RightSide/RIghtSideBar';
 import Sidebar from './components/sidebar/Sidebar';
 
@@ -7,11 +6,10 @@ import Sidebar from './components/sidebar/Sidebar';
 function App() {
   return (
     <>
-      <Navbar />
       <div className="container">
-        <div className="row">
+        <div className="row mt-5 pt-4">
           <Sidebar />
-          <Banner/>
+          <Main/>
           <RIghtSideBar />
         </div>
       </div>
