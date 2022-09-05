@@ -9,10 +9,10 @@ import Navbar from './components/navbar/Navbar';
 import LoginRoute from './components/Routes/LoginRoute';
 import ForgetPassword from './components/Auth/ForgetPassword';
 import AirtimeSide from './components/Routes/AirtimeSide';
-import SocialModal from './components/Modal/SocialModal';
-import MarketModal from './components/Modal/MarketModal';
 import NavbarMobile from './components/navbar/NavbarMobile';
 import NavFixButttom from './components/navbar/NavFixButttom';
+// import SocialModal from './components/Modal/SocialModal';
+// import MarketModal from './components/Modal/MarketModal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,8 +28,8 @@ root.render(
         <Route path="/login" element={<LoginRoute />} />
         <Route path="/forgotpassword" element={<ForgetPassword />} />
         <Route path="/airtime" element={<AirtimeSide />} />
-        <Route path="/social" element={<SocialModal />} />
-        <Route path="/market" element={<MarketModal />} />
+        {/* <Route path="/social" element={<SocialModal />} />
+        <Route path="/market" element={<MarketModal />} /> */}
       </Routes>
       <NavFixButttom />
     </>
