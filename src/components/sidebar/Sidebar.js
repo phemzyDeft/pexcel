@@ -8,8 +8,8 @@ import {Link} from 'react-router-dom';
 
 const Sidebar = (props) => {
   return (
-    <div className="col-3 col-md-3 col-lg-3">
-    <div className='' style={{background: 'white', width: "260px", position: "fixed", overflowY: 'scroll', height: '90%'}}>
+    <div className="col-lg-3 col-xl-3 .bg-dark d-none d-lg-block d-xl-block">
+    <div className='' style={{background: 'white', width: "260px", position: "fixed", overflowY: 'scroll', height: '80%'}}>
 
       <div class="">
           <div class="_2EjbQWOf09">
@@ -88,7 +88,7 @@ const Sidebar = (props) => {
           </div>
           </div>
         </div>
-        <div class="_3G7L5Lphh_"><a href="https://play.google.com/store/apps/details?id=com.app.hawkitng" class="mr-1" to="https://play.google.com/store/apps/details?id=com.app.hawkitng"><img src={google_play} alt="google-play-store" /></a><a href="https://hawkit.ng/download" class="h-100" to="https://hawkit.ng/download"><img src={apple_play} alt="apple-play-store" /></a></div>
+        <div class="_3G7L5Lphh_"><a class="mr-1"><img src={google_play} alt="google-play-store" /></a><a class="h-100"><img src={apple_play} alt="apple-play-store" /></a></div>
       </div>
 
     </div>

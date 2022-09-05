@@ -12,7 +12,7 @@ function Navbar(props) {
           <div class="offset-xl-1 col-xl-10 h-100">
             <div class="_3cD_oITFvU">
               <div class="_3wLuyOXZHa">
-                <div class="e_P_8k4OrR"><a href="#/"><img src={logo} alt="" /></a></div>
+                <Link to='/'><div class="e_P_8k4OrR"><a><img src={logo} alt="" /></a></div></Link>
               </div>
               <div class="d-none d-lg-block DhkAc_QZ0H">
                 <form autocomplete="off">
@@ -45,6 +45,7 @@ function Navbar(props) {
         </div>
       </div>
     </div>
+
   </div>
   );
 };

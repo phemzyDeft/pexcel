@@ -2,7 +2,7 @@ import React from 'react';
 
 const RIghtSideBar = (props) => {
   return (
-    <div className="col-0 col-md-3 col-lg-3 col-xl-3 col-sm-0">
+    <div className="col-md-4 col-lg-3 col-xl-3 d-none d-md-block">
     <div className='' style={{width: "285px", position: "fixed", overflowY: 'scroll', height: '70%'}}>
     <div class="_1kMqXwfg5O">
       <div class="_11UHTgcafn">
@@ -83,7 +83,7 @@ const RIghtSideBar = (props) => {
           </div>
         </div>
       </div>
-      <div class="_2ekqb6o0Qj"><a href="#/activities">View More <span class="fal fa-chevron-down"></span></a></div>
+      <div class="_2ekqb6o0Qj"><a href="#/activities">View More <span class="fa fa-chevron-down"></span></a></div>
       </div>
     </div>
     </div>

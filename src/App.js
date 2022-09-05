@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="row mt-5 pt-4">
+        <div className="row my-md-5 py-md-3">
           <Sidebar />
           <Main/>
           <RIghtSideBar />

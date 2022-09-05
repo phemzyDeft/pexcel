@@ -6,7 +6,7 @@ import logo from '../../assets/logo-light.jpg';
 
 const Card2 = (props) => {
   return (
-<div class="_39Zy4vLNJR mt-5">
+<div class="_39Zy4vLNJR my-2">
   <div class="row no-gutters">
     <div class="col-6 col-sm-4 mb-2">
       <div class="YIySTFv4j7 mr-2">

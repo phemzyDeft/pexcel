@@ -25,7 +25,7 @@ const ForgetPassword = (props) => {
                         
                         
                         
-                        <form method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="ZGa6dVPO1EVLLZPeKU2XUR5EnKr4eJHDUy79w1GDggJdbsyw59VNi9AP2TFzVsD1" />
+                        <form method=""><input type="hidden" name="" value=""/>
                             <p class="text-muted mb-2 mt-3 text-center">Reset your password.
                                 <br />
                                 Enter your email address and we'll send you an email with instructions to reset your password.
@@ -35,6 +35,9 @@ const ForgetPassword = (props) => {
                                     <div class="form-group">
                                         <label for="id_username">Email or Username</label>
                                         <input type="text" name="email_or_password" id="username" class="form-control" placeholder="Enter your email or username here" required="" />
+                                        <div class="invalid-feedback">
+                                            enter the correct email
+                                        </div>
                                     </div>
                                 </div>
                             </div>

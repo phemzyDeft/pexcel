@@ -14,28 +14,28 @@ const AirtimeSidebar = (props) => {
       <div class="_1oWtj0JrTa">
         <p>All Subcategories</p>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#/airtime/60940afc056d1262a8dee411"><i class="fas fa-list"></i><span>MTN Airtime</span></a></div>
+          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>MTN Airtime</span></a></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#/airtime/60940afd056d1262a8dee414"><i class="fas fa-list"></i><span>Airtel Data</span></a></div>
+          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>Airtel Data</span></a></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#/airtime/60940afe056d1262a8dee416"><i class="fas fa-list"></i><span>GLO Data</span></a></div>
+          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>GLO Data</span></a></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#/airtime/60940afd056d1262a8dee413"><i class="fas fa-list"></i><span>Airtel Airtime</span></a></div>
+          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>Airtel Airtime</span></a></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#/airtime/60940afe056d1262a8dee418"><i class="fas fa-list"></i><span>9Mobile Data</span></a></div>
+          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>9Mobile Data</span></a></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#/airtime/60940afd056d1262a8dee412"><i class="fas fa-list"></i><span>MTN Data</span></a></div>
+          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>MTN Data</span></a></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#/airtime/60940afd056d1262a8dee415"><i class="fas fa-list"></i><span>GLO Airtime</span></a></div>
+          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>GLO Airtime</span></a></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#/airtime/60940afe056d1262a8dee417"><i class="fas fa-list"></i><span>9Mobile Airtime</span></a></div>
+          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>9Mobile Airtime</span></a></div>
         </div>
       </div>
       <div class="_2pTwXAVqNQ">

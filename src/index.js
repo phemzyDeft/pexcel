@@ -11,13 +11,16 @@ import ForgetPassword from './components/Auth/ForgetPassword';
 import AirtimeSide from './components/Routes/AirtimeSide';
 import SocialModal from './components/Modal/SocialModal';
 import MarketModal from './components/Modal/MarketModal';
+import NavbarMobile from './components/navbar/NavbarMobile';
+import NavFixButttom from './components/navbar/NavFixButttom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <BrowserRouter>
-    <div>
+    <>
       <Navbar />
+      <NavbarMobile/>
       <Routes>
         <Route path='/' element={<App />}/>
         <Route path='/register' element={<RegisterRoute />}/>
@@ -28,7 +31,8 @@ root.render(
         <Route path="/social" element={<SocialModal />} />
         <Route path="/market" element={<MarketModal />} />
       </Routes>
-    </div>
+      <NavFixButttom />
+    </>
 
   </BrowserRouter>
 
