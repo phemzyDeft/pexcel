@@ -3,7 +3,7 @@ import React from 'react';
 const AirtimeSidebar = (props) => {
   return (
 <div class="pr-md-0 d-none d-md-block col-lg-3 col-md-4">
-  <div class="_21chLI4xNG" style={{width: "265.625px", position: "fixed"}}>
+  <div class=".._21chLI4xNG" style={{position: "fixed"}}>
     <div class="_3abDRYJT3P">
       <div class="E5MFBHsCyR">
         <nav aria-label="breadcrumb">

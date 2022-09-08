@@ -2689,7 +2689,7 @@ a:hover {
   overflow: hidden
 }
 
-._39Zy4vLNJR {
+/* ._39Zy4vLNJR {
   padding: 0 1rem
 }
 
@@ -2697,7 +2697,7 @@ a:hover {
   ._39Zy4vLNJR {
      padding: 0
   }
-}
+} */
 
 .YIySTFv4j7 {
   display: flex;
@@ -10689,3 +10689,8 @@ label {
 }
 
 /*# sourceMappingURL=main.d7df8aec.chunk.css.map */
+
+
+.col-space{
+  padding: 5px;
+}

@@ -11,6 +11,8 @@ import ForgetPassword from './components/Auth/ForgetPassword';
 import AirtimeSide from './components/Routes/AirtimeSide';
 import NavbarMobile from './components/navbar/NavbarMobile';
 import NavFixButttom from './components/navbar/NavFixButttom';
+import UserRoute from './components/Routes/UserRoute';
+import ApiResult from './components/Routes/ApiResult';
 // import SocialModal from './components/Modal/SocialModal';
 // import MarketModal from './components/Modal/MarketModal';
 
@@ -28,6 +30,9 @@ root.render(
         <Route path="/login" element={<LoginRoute />} />
         <Route path="/forgotpassword" element={<ForgetPassword />} />
         <Route path="/airtime" element={<AirtimeSide />} />
+        <Route path="/profile" element={<UserRoute />} />
+        <Route path="/note/" element={<ApiResult />} />
+
         {/* <Route path="/social" element={<SocialModal />} />
         <Route path="/market" element={<MarketModal />} /> */}
       </Routes>

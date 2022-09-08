@@ -1,9 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../../assets/logo-light.jpg';
 
 
 const Login = (props) => {
+
+    const [username, setUsername] = useState("")
+    const [password, setPassword] = useState("")
+    const [message, setMessage] = useState("")
+
+    let handleSubmit = async (e) => {
+        e.preventDefault();
+
+        try {
+            let data = await fetch('https://httpbin.org/post', {
+                method: 'POST',
+                body: JSON.stringify({
+                    username: username,
+                    password: password
+                }),
+            });
+            let response = await data.json();
+            if (response.status === 200){
+                setUsername("");
+                setPassword("");
+                setMessage('user created successfully!')
+            }
+            else{
+                setMessage('there was an error when rendering this data')
+            }
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
   return (
 <div class="account-pages mt-5 mb-5 pt-5">
     <div class="container">
@@ -17,7 +47,7 @@ const Login = (props) => {
                             
                             
                             <a href="/">
-                                <span><img src={logo} alt="Logo" height="100px" /></span>
+                                <span><img src={logo} alt="Logo" height="50px" /></span>
                             </a>
                             
                                 
@@ -32,26 +62,28 @@ const Login = (props) => {
                         </div>   
                         {/*-- End Display error and messages */}                                                                 
                         
-                        <form method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="mesV4IdkTQXsuSm79ioQMoBuB6h1gAi6h6pYnO498sLUUl5puxhGaG6FgfvwXjeu" />
+                        <form onSubmit={handleSubmit} method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="mesV4IdkTQXsuSm79ioQMoBuB6h1gAi6h6pYnO498sLUUl5puxhGaG6FgfvwXjeu" />
 
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-12 pt-3">
                                     <div class="form-group">
                                         <label for="id_username">Username</label>
-                                        <input type="text" name="username" autofocus="" placeholder="Enter username here" class="form-control" required="" id="id_username" />
+                                        <input onChange={(e) => setUsername(e.target.value)} type="text" name={username} autofocus="" placeholder="Enter username here" class="form-control" required="" id="id_username" />
                                     </div>
                                 </div>
 
-                                <div class="col-md-12">
+                                <div class="col-md-12 pt-3">
                                     <div class="form-group">
                                         <label for="id_password">Password</label>
-                                        <input type="password" name="password" placeholder="Enter password here" class="form-control" required="" id="id_password" />
+                                        <input onChange={(e) => setPassword(e.target.value)} type="password" name={password} placeholder="Enter password here" class="form-control" required="" id="id_password" />
                                     </div>
                                 </div>
                             </div>
 
+                            <div>{message ? <p>{message}</p>: null}</div>
+
                             <div class="form-group mb-0 text-center pt-4 col-12">
-                              <div class="col-sm-12"><button class="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">SIGN UP</button></div>
+                              <div class="col-sm-12"><button class="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">SIGN IN</button></div>
                             </div>
 
                         </form>

@@ -4,8 +4,8 @@ import mtn from '../../assets/mtn.jpeg';
 const Airtime = (props) => {
   return (
 <div class="position-static col-lg-9 col-md-8">
-  <div class="_3wYllazvID">
-    <div class="_1jlMcXs7_l">
+  <div class="._3wYllazvID">
+    <div class="._1jlMcXs7_l">
       <div class="_3RyIhJP6hH">
         <div class="Gquizgm9Y4 mb-5">
           <div class="_1k7rNH2IaX d-block d-lg-none ">

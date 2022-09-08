@@ -6,9 +6,9 @@ import logo from '../../assets/logo-light.jpg';
 
 const Card2 = (props) => {
   return (
-<div class="_39Zy4vLNJR my-2">
+<div class="._39Zy4vLNJR. .my-2">
   <div class="row no-gutters">
-    <div class="col-6 col-sm-4 mb-2">
+    <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7 mr-2">
         <div class="_202LTVcvxL">
           <h6>Perform Social Tasks and Earn Daily</h6>
@@ -22,7 +22,7 @@ const Card2 = (props) => {
         </div>
       </div>
     </div>
-    <div class="col-6 col-sm-4 mb-2">
+    <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7 mr-sm-2">
         <div class="_202LTVcvxL">
           <h6>Boost Your Social Portfolio</h6>
@@ -36,7 +36,7 @@ const Card2 = (props) => {
         </div>
       </div>
     </div>
-    <div class="col-6 col-sm-4 mb-2">
+    <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7 mr-2 mr-sm-0">
         <div class="_202LTVcvxL">
           <h6>Start Your Airtime/Data Business</h6>
@@ -50,7 +50,7 @@ const Card2 = (props) => {
         </div>
       </div>
     </div>
-    <div class="col-6 col-sm-4 mb-2">
+    <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7 mr-sm-2">
         <div class="_202LTVcvxL">
           <h6>Buy and Sell Anything on Hawkit Market</h6>
@@ -64,7 +64,7 @@ const Card2 = (props) => {
         </div>
       </div>
     </div>
-    <div class="col-6 col-sm-4 mb-2">
+    <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7 mr-2">
         <div class="_202LTVcvxL">
           <h6>Refer and Earn Big</h6>
@@ -78,7 +78,7 @@ const Card2 = (props) => {
         </div>
       </div>
     </div>
-    <div class="col-6 col-sm-4 mb-2">
+    <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7">
         <div class="_202LTVcvxL">
           <h6>Manage Your Profile</h6>

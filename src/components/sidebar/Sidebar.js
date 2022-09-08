@@ -15,7 +15,7 @@ const Sidebar = (props) => {
           <div class="_2EjbQWOf09">
             <div class="_3D4lABzCaf">
               <h6 class="mb-2">Earn Steady Daily Figures from the Comfort of Your Phone</h6>
-              <p>Simply <a href='#' style={{color: 'blue', cursor: 'pointer'}}><Link to='/login'>Log in</Link></a> or <a href='#' style={{color: 'blue', cursor: 'pointer'}}><Link to='/register'>Register</Link></a> to enjoy the amazing features on Hawkit.</p>
+              <p>Simply <a href='#' style={{color: 'blue', cursor: 'pointer'}}><Link to='/login'>Log in</Link></a> or <a href='#' style={{color: 'blue', cursor: 'pointer'}}><Link to='/register'>Register</Link></a> to enjoy the amazing features on Pexcel.</p>
             </div>
           </div>
           <div>
@@ -83,7 +83,7 @@ const Sidebar = (props) => {
                 </div>
               </div>
               <div class="_2U5oUBl1ux">
-                <p>Download the Hawkit Mobile App today and Enjoy a Seamless Experience with Instant Notifications</p>
+                <p>Download the Pexcel Mobile App today and Enjoy a Seamless Experience with Instant Notifications</p>
               </div>
           </div>
           </div>

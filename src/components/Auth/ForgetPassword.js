@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo-light.jpg';
+import {Link} from 'react-router-dom';
 
 const ForgetPassword = (props) => {
   return (
@@ -45,12 +46,13 @@ const ForgetPassword = (props) => {
                             <div class="form-group mb-0 text-center">
                               <div class="col-sm-12"><button class="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">Proceed</button></div>
                             </div>
+
+                            <div class="col-12 text-center mt-2">
+                                <a class="text-black"><Link to='/login'><b>back to login</b></Link></a>
+                            </div>
+                            
                         </form>
-                        
-
-                        
-                        
-
+ 
                     </div> {/*-- end card-body -*/}
                 </div>
                 {/*-- end card -*/}

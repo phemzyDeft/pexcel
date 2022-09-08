@@ -1,6 +1,7 @@
 import Main from './components/main/Main';
 import RIghtSideBar from './components/RightSide/RIghtSideBar';
 import Sidebar from './components/sidebar/Sidebar';
+import Profile from './components/User/Profile';
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <>
       <div className="container">
         <div className="row my-md-5 py-md-3">
-          <Sidebar />
+          {/* <Sidebar /> */}
+          <Profile />
           <Main/>
           <RIghtSideBar />
         </div>

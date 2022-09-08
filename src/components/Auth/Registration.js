@@ -13,7 +13,7 @@ function Registration(props) {
           <div class="card-body p-4">
             <div class="text-center w-75 m-auto">
               <a href="/">
-              <span><img src={logo} alt="Logo" height="70px" /></span>
+              <span><img src={logo} alt="Logo" height="50px" /></span>
               </a>
               <p class="text-muted mb-2 mt-3" style={{fontSize: '.8rem'}}>Creating an account with us is easy, it takes less than a minute.</p>
             </div>
@@ -24,7 +24,7 @@ function Registration(props) {
             <form method="POST">
               <input type="hidden" name="csrfmiddlewaretoken" value="gJNsRkOxXn45btgygKbFC6ZqXbV9snxhbBKvaqFmcZSxBWZQBZ4v0ouBCk9E96tF" />
               <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 pt-3">
                   <div class="form-group">
                     <label for="id_first_name">Select Account Type</label>
                     <select name="plan" id="" class="form-control">
@@ -34,48 +34,48 @@ function Registration(props) {
                   </div>
                 </div>
               </div>
-              <div class="row pt-3">
-                <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-4 pt-3">
                   <div class="form-group">
                     <label for="id_first_name">First Name</label>
                     <input type="text" name="first_name" autofocus="" placeholder="Enter first name here" class="form-control" required="" id="id_first_name" />
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 pt-3">
                   <div class="form-group">
                     <label for="id_last_name">Last Name</label>
                     <input type="text" name="last_name" placeholder="Enter last name here" class="form-control" required="" id="id_last_name" />
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 pt-3">
                   <div class="form-group">
                     <label for="id_phone">Phone Number</label>
                     <input type="text" name="phone" maxlength="11" minlength="11" placeholder="Enter phone number here" class="form-control" required="" id="id_phone" />
                   </div>
                 </div>
               </div>
-              <div class="row pt-3">
-                <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6 pt-3">
                   <div class="form-group">
                     <label for="id_email">Email</label>
                     <input type="email" name="email" placeholder="Enter email here" class="form-control" required="" id="id_email" />
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 pt-3">
                   <div class="form-group">
                     <label for="id_username">Username</label>
                     <input type="text" name="username" maxlength="20" autofocus="" placeholder="Enter username here" class="form-control" required="" id="id_username" />
                   </div>
                 </div>
               </div>
-              <div class="row pt-2">
-                <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6 pt-3">
                   <div class="form-group">
                     <label for="id_password1">Password</label>
                     <input type="password" name="password1" minlength="8" placeholder="Enter password here" class="form-control" required="" id="id_password1" />
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 pt-3">
                   <div class="form-group">
                     <label for="id_password2">Confirm Password</label>
                     <input type="password" name="password2" minlength="8" placeholder="Retype password here" class="form-control" required="" id="id_password2" />
