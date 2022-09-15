@@ -4,7 +4,7 @@ import AirtimeSidebar from '../Airtime/AirtimeSidebar';
 
 function AirtimeSide(props) {
   return (
-    <div className="container-fluid py-md-5 my-md-3">
+    <div className="container py-md-5 my-md-3">
       <div className='row'>
         <AirtimeSidebar />
         <Airtime />

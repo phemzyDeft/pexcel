@@ -13,9 +13,9 @@ const ForgetPassword = (props) => {
                     <div class="card-body p-4">
                         
                         <div class="text-center w-75 m-auto">
-                            <a href="/">
+                            <Link to="/">
                                 <span><img src={logo} alt="" height="22" /></span>
-                            </a>
+                            </Link>
                         </div>
 
                         {/*-- Display error and messages -*/}
@@ -48,7 +48,7 @@ const ForgetPassword = (props) => {
                             </div>
 
                             <div class="col-12 text-center mt-2">
-                                <a class="text-black"><Link to='/login'><b>back to login</b></Link></a>
+                                <Link class="text-black"><Link to='/login'><b>back to login</b></Link></Link>
                             </div>
                             
                         </form>
@@ -69,9 +69,9 @@ const ForgetPassword = (props) => {
     <div class="container">
         <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 text-center"><span class="text-primary">.</span>  All Rights Reserved. 
-    <a href="https://api.whatsapp.com/send?phone=2348129974967&amp;text=Hello%20Pexcel,%20I%20Team%20">
+    <Link to="https://api.whatsapp.com/send?phone=2348129974967&amp;text=Hello%20Pexcel,%20I%20Team%20">
       <small style={{color: "red"}}>&nbsp; chat via whatsapp</small>
-    </a>
+    </Link>
     </div>
         </div>
     </div>

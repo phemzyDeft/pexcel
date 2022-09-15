@@ -2,16 +2,18 @@ import React from 'react';
 import social from '../../assets/social.jpg';
 import subscription from '../../assets/networks.png';
 import market from '../../assets/market.png';
-import logo from '../../assets/logo-light.jpg';
+import avatar from '../../assets/user-avatar.png';
+import { Link } from 'react-router-dom';
+
 
 const Card2 = (props) => {
   return (
-<div class="._39Zy4vLNJR. .my-2">
-  <div class="row no-gutters">
+<div class="_39Zy4vLNJR my-2">
+  <div class="row .no-gutters">
     <div class="col-6 col-md-4 col-lg-4 col-space">
-      <div class="YIySTFv4j7 mr-2">
+      <div class="YIySTFv4j7 .mr-2">
         <div class="_202LTVcvxL">
-          <h6>Perform Social Tasks and Earn Daily</h6>
+          <h6 className='text-center'>Perform Social Tasks and Earn Daily</h6>
         </div>
         <div class="q90qNgxiaP">
           <div class="_2PcF9c6mzt"><img alt="social-icon" src={social} /></div>
@@ -25,7 +27,7 @@ const Card2 = (props) => {
     <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7 mr-sm-2">
         <div class="_202LTVcvxL">
-          <h6>Boost Your Social Portfolio</h6>
+          <h6 className='text-center'>Boost Your Social Portfolio</h6>
         </div>
         <div class="q90qNgxiaP">
           <div class="_2PcF9c6mzt"><img alt="social-icon" src={social} /></div>
@@ -39,7 +41,7 @@ const Card2 = (props) => {
     <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7 mr-2 mr-sm-0">
         <div class="_202LTVcvxL">
-          <h6>Start Your Airtime/Data Business</h6>
+          <h6 className='text-center'>Start Your Airtime/Data Business</h6>
         </div>
         <div class="q90qNgxiaP">
           <div class="_2PcF9c6mzt"><img alt="airtime-icon" src={subscription} /></div>
@@ -53,7 +55,7 @@ const Card2 = (props) => {
     <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7 mr-sm-2">
         <div class="_202LTVcvxL">
-          <h6>Buy and Sell Anything on Hawkit Market</h6>
+          <h6 className='text-center'>Buy and Sell Anything on Hawkit Market</h6>
         </div>
         <div class="q90qNgxiaP">
           <div class="_2PcF9c6mzt"><img alt="airtime-icon" src={subscription} /></div>
@@ -67,7 +69,7 @@ const Card2 = (props) => {
     <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7 mr-2">
         <div class="_202LTVcvxL">
-          <h6>Refer and Earn Big</h6>
+          <h6 className='text-center'>Refer and Earn Big</h6>
         </div>
         <div class="q90qNgxiaP">
           <div class="_2PcF9c6mzt"><img alt="referral-icon" src={market} /></div>
@@ -81,16 +83,16 @@ const Card2 = (props) => {
     <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7">
         <div class="_202LTVcvxL">
-          <h6>Manage Your Profile</h6>
+          <h6 className='text-center'>Manage Your Profile</h6>
         </div>
         <div class="q90qNgxiaP">
           <div class="_2PcF9c6mzt">
-            <div class="_5uGUhiNY0y null null" style={{width: "80px", height: "80px"}}><img src={logo} style={{width: "80px", height: "80px"}} alt='' /></div>
+            <div class="_5uGUhiNY0y null null" style={{width: "80px", height: "80px"}}><img src={avatar} style={{width: "80px", height: "80px"}} alt='' /></div>
           </div>
           <p class="f-10">Manage and Edit your profile, View your earnings, Fund your Wallet, withdraw your funds into your bank account etc.</p>
         </div>
         <div class="_3VOh5h7691">
-          <p><a class="btn btn-outline mb-1" href="#/users/janetpexcel">MY PROFILE</a></p>
+          <Link to='/more'><p><a class="btn btn-outline mb-1" href="#/users/janetpexcel">MY PROFILE</a></p></Link>
         </div>
       </div>
     </div>

@@ -21,9 +21,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/181dde3bb4c462eb82870819572dfc1d041ed8122275a61940b9fa13dd7af9a0_v2.jpg" style={{width: "30px", height: "30px"}} alt=''/></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/ridwanah">
+                    <Link to="#/users/ridwanah">
                       <h4>ridwanah</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -64,9 +64,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/5eefcfbae8d65d48c8da9887"><i class="mr-1 fas fa-tag"></i> Women's Clothing</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/5eefcfbae8d65d48c8da9887"><i class="mr-1 fas fa-tag"></i> Women's Clothing</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Beautiful and affordable Ankara</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 8,000</p>
@@ -96,9 +96,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/d3ff305ebae4aba7cb7afd349b693f10ab5073ebdb60384707ee14e0dcadb939_v2.jpg" style={{width: "30px", height: "30px"}} alt=''/></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/harbydemi">
+                    <Link to="#/users/harbydemi">
                       <h4>harbydemi</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -174,9 +174,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/5ed912dd6103a1777f7696bf"><i class="mr-1 fas fa-tag"></i> Footwear</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/5ed912dd6103a1777f7696bf"><i class="mr-1 fas fa-tag"></i> Footwear</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Chic flats and bags</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 6,000</p>
@@ -206,9 +206,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="./static/media/no_user.185543af.png" style={{width: "30px", height: "30px"}} alt=''/></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/alqudsy">
+                    <Link to="#/users/alqudsy">
                       <h4>alqudsy</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -249,9 +249,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/5ef0aad40831246864476bff"><i class="mr-1 fas fa-tag"></i> Home Kitchen Furniture</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/5ef0aad40831246864476bff"><i class="mr-1 fas fa-tag"></i> Home Kitchen Furniture</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Highly Modernize Furniture</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 80,000</p>
@@ -281,9 +281,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/1a96f5ea376b0a800387746fa8be27ee6595a5b6cf6978e7dfc9f4e1d2ea3da0_v2.jpg" alt='' style={{width: "30px", height: "30px"}} /></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/remmyjoe">
+                    <Link to="#/users/remmyjoe">
                       <h4>remmyjoe</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -317,9 +317,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Bitmain company products</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 6,000</p>
@@ -349,9 +349,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/8782702186c0b8c57b3781a1df5fa7905465e469bd89535ff9261f867416ffd7_v2.jpg" style={{width: "30px", height: "30px"}} alt=''/></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/adedolapo75">
+                    <Link to="#/users/adedolapo75">
                       <h4>adedolapo75</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -378,9 +378,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/5ed910c36103a1777f769598"><i class="mr-1 fas fa-tag"></i> Women's Fashion</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/5ed910c36103a1777f769598"><i class="mr-1 fas fa-tag"></i> Women's Fashion</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Handmade closures,frontals and braided wig for sale</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 4,000</p>
@@ -410,9 +410,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/6b6dd4595970f4bc779b27f36c996a4fa45616e784dba32c28da7d8c1656a15e_v2.jpg" style={{width: "30px", height: "30px"}} alt=''/></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/samuelsuccess01">
+                    <Link to="#/users/samuelsuccess01">
                       <h4>samuelsuccess01</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -446,9 +446,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Telecommunication Service, Picture artwork &amp; Video Editing Service</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 280</p>
@@ -478,9 +478,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/c515aa1d5904e8cb8d7f9e5d2fecac5daa5149a42ff0dcaed4cbb1fc67aacb98_v2.jpg" style={{width: "30px", height: "30px"}} alt="" />
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-               alt="" /      <a href="#/users/zyanstore">
+               alt="" /      <Link to="#/users/zyanstore">
                       <h4>zyanstore</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -528,9 +528,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Bags and fashionable water bottles</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 3,500</p>
@@ -560,9 +560,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/c515aa1d5904e8cb8d7f9e5d2fecac5daa5149a42ff0dcaed4cbb1fc67aacb98_v2.jpg" style={{width: "30px", height: "30px"}} alt='' /></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/zyanstore">
+                    <Link to="#/users/zyanstore">
                       <h4>zyanstore</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -603,9 +603,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Bags available for immediate pick-up at affordable prices</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 6,000</p>
@@ -635,9 +635,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/38b4d23b8ee4740ba98b8b27ea5742355dd3a2515c3983cb294c859911608293_v2.jpg" style={{width: "30px", height: "30px"}} alt='' /></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/yhusfy">
+                    <Link to="#/users/yhusfy">
                       <h4>yhusfy</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -685,9 +685,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/5ed910ba6103a1777f7694b2"><i class="mr-1 fas fa-tag"></i> Men's Fashion</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/5ed910ba6103a1777f7694b2"><i class="mr-1 fas fa-tag"></i> Men's Fashion</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Yhusfy Matrix And Fashion</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 2,000</p>
@@ -717,9 +717,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/775f9c699b98e35e67d127004d80d1964392e3ae5dde88875cdb2c5539d58aee_v2.jpg" style={{width: "30px", height: "30px"}} alt="" /></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/chiefagbabiaka">
+                    <Link to="#/users/chiefagbabiaka">
                       <h4>chiefagbabiaka</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -746,9 +746,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/5ecac3cb0d0672016e3f6fb2"><i class="mr-1 fas fa-tag"></i> Hair and Scalp Treatments</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/5ecac3cb0d0672016e3f6fb2"><i class="mr-1 fas fa-tag"></i> Hair and Scalp Treatments</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Ayoade Organics Hair Booster Cream</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 500</p>
@@ -778,9 +778,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/f6a5e1daef0b2e8d9d0adfa93d42fca53a8360f922fce6257314866dcdeaa453_v2.jpg" style={{width: "30px", height: "30px"}} alt=''/></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/refleximage">
+                    <Link to="#/users/refleximage">
                       <h4>refleximage</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -842,9 +842,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>Artwork on frame</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 10,000</p>
@@ -874,9 +874,9 @@ const Cards = (props) => {
                 <div class="_5uGUhiNY0y null null" style={{width: "30px", height: "30px"}}><img src="https://staticcdn.blivar.com/images/users/c42f234a6457cab5671bcf540020b04bdb67385b6df2a460de6ac885a10c7833_v2.jpg" style={{width: "30px", height: "30px"}} alt='' /></div>
                 <div class="_1kGHH1s-Ot" style={{width: "106px"}}>
                   <div class="_27b-Ri_V0T">
-                    <a href="#/users/artistkosa">
+                    <Link to="#/users/artistkosa">
                       <h4>artistkosa</h4>
-                    </a>
+                    </Link>
                   </div>
                   <div class="_33qzUkNXij">
                     <p><span class="fal fa-map-marker-alt"></span> Ede North, Osun, Nigeria</p>
@@ -952,9 +952,9 @@ const Cards = (props) => {
                   </div>
                 </div>
                 <div class="sxkb2BxSLM">
-                  <div class="_1Ys9NVaJSI"><a class="_2HBnnvCrJi" href="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</a></div>
+                  <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/shop/628503924495e208a136fd2d"><i class="mr-1 fas fa-tag"></i> Other Categories</Link></div>
                   <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>High quality graphics designs, Frames, vest branding , customized mug, fliers ,banner</div>
-                  <div class="_2_RMdL67Lm"><a href="/">More Details <i class="fas fa-external-link"></i></a></div>
+                  <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                   <div class="OdmDooK9GT">
                     <div>
                       <p class="TuyRotipXZ">₦ 4,000</p>
@@ -982,7 +982,7 @@ const Cards = (props) => {
             <div class="_3E7Z3xwtpc">
               <img src="https://staticcdn.blivar.com/images/market-icon.png" alt="scroll" />
               <h5>Now Selling on Hawkit Market</h5>
-              <p><a class="btn btn-outline" href="#/shop/">VIEW MORE</a></p>
+              <p><Link class="btn btn-outline" to="#/shop/">VIEW MORE</Link></p>
             </div>
           </div>
         </div>

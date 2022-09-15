@@ -1,10 +1,10 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const AirtimeSidebar = (props) => {
   return (
-<div class="pr-md-0 d-none d-md-block col-lg-3 col-md-4">
-  <div class=".._21chLI4xNG" style={{position: "fixed"}}>
-    <div class="_3abDRYJT3P">
+    <div className="col-lg-3 d-none d-md-none d-lg-block d-flex px-4">
+    <div class="_3abDRYJT3P" style={{background: 'white', width: "260px", position: "fixed", height: '80%'}}>
       <div class="E5MFBHsCyR">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb"></ol>
@@ -14,28 +14,28 @@ const AirtimeSidebar = (props) => {
       <div class="_1oWtj0JrTa">
         <p>All Subcategories</p>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>MTN Airtime</span></a></div>
+          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>MTN Airtime</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>Airtel Data</span></a></div>
+          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>Airtel Data</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>GLO Data</span></a></div>
+          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>GLO Data</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>Airtel Airtime</span></a></div>
+          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>Airtel Airtime</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>9Mobile Data</span></a></div>
+          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>9Mobile Data</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>MTN Data</span></a></div>
+          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>MTN Data</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>GLO Airtime</span></a></div>
+          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>GLO Airtime</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><a href="#"><i class="fas fa-list"></i><span>9Mobile Airtime</span></a></div>
+          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>9Mobile Airtime</span></Link></div>
         </div>
       </div>
       <div class="_2pTwXAVqNQ">
@@ -53,7 +53,6 @@ const AirtimeSidebar = (props) => {
       </div>
     </div>
   </div>
-</div>
 
   );
 }

@@ -1,5 +1,4 @@
 
-
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -2689,11 +2688,11 @@ a:hover {
   overflow: hidden
 }
 
-/* ._39Zy4vLNJR {
-  padding: 0 1rem
+._39Zy4vLNJR {
+  padding: 0 .4rem
 }
 
-@media (min-width:768px) {
+/* @media (min-width:768px) {
   ._39Zy4vLNJR {
      padding: 0
   }
@@ -2739,7 +2738,7 @@ a:hover {
 }
 
 ._2PcF9c6mzt {
-  margin-bottom: .5rem;
+  /* margin-bottom: .5rem; */
   text-align: center;
   display: flex;
   align-items: center;
@@ -10687,9 +10686,6 @@ label {
      transform: rotate(1turn)
   }
 }
-
-/*# sourceMappingURL=main.d7df8aec.chunk.css.map */
-
 
 .col-space{
   padding: 5px;

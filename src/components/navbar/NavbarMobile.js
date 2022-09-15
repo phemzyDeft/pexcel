@@ -11,12 +11,12 @@ function NavbarMobile(props) {
           <div class="offset-xl-1 col-xl-10 h-100">
             <div class="_3cD_oITFvU">
               <div class="_3wLuyOXZHa">
-                <div class="e_P_8k4OrR"><a href="#/"><img src={logo} alt="" /></a></div>
+                <div class="e_P_8k4OrR"><Link to="#/"><img src={logo} alt="" /></Link></div>
               </div>
               <div class="e6_Obm5KyG col-md-2">
-                <Link to='/login'><div><a class="btn btn-coloured-heavy btn-xl mr-2">Login</a></div></Link>
+                <Link to='/login'><div><Link class="btn btn-coloured-heavy btn-xl mr-2">Login</Link></div></Link>
                   &nbsp; &nbsp;
-                <Link to='/register'><div><a class="btn btn-outline btn-xl">Sign Up</a></div></Link>
+                <Link to='/register'><div><Link class="btn btn-outline btn-xl">Sign Up</Link></div></Link>
               </div>
             </div>
           </div>

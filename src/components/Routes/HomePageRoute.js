@@ -1,10 +1,11 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar';
+// import Main from '../main/Main';
+// import Navbar from '../navbar/Navbar';
 
 function HomePageRoute(props) {
   return (
     <>
-      <Navbar />
+      {/* <Main /> */}
     </>
   );
 }

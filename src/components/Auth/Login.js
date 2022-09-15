@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../../assets/logo-light.jpg';
+import './auth.css';
 
 
 const Login = (props) => {
@@ -46,9 +47,9 @@ const Login = (props) => {
                         <div class="text-center w-75 m-auto">
                             
                             
-                            <a href="/">
+                            <Link to="/">
                                 <span><img src={logo} alt="Logo" height="50px" /></span>
-                            </a>
+                            </Link>
                             
                                 
                             <p class="text-muted mb-2 mt-3">Login to your account.</p>
@@ -91,12 +92,12 @@ const Login = (props) => {
                         <div class="row mt-3">
                             <div class="col-12 text-center mb-3">
                                 <p class="text-center">
-                                    <a class="text-black ml-"><Link to="/forgotpassword"><b>Forgot your password?</b></Link></a>
+                                    <Link class="text-black ml-"><Link to="/forgotpassword"><b>Forgot your password?</b></Link></Link>
                                 </p>
                             </div> {/*-- end col */}
 
                             <div class="col-12 text-center">
-                                <p class="">Don't have an account?  <a class="text-black ml-1"><Link to='/register'><b>Create Account</b></Link></a></p>
+                                <p class="">Don't have an account?  <Link class="text-black ml-1"><Link to='/register'><b>Create Account</b></Link></Link></p>
                             </div> {/*-- end col */}
                         </div>
                         {/*-- end row */}

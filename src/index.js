@@ -13,37 +13,41 @@ import NavbarMobile from './components/navbar/NavbarMobile';
 import NavFixButttom from './components/navbar/NavFixButttom';
 import UserRoute from './components/Routes/UserRoute';
 import ApiResult from './components/Routes/ApiResult';
-// import SocialModal from './components/Modal/SocialModal';
-// import MarketModal from './components/Modal/MarketModal';
+// import Sidebar from './components/sidebar/Sidebar';
+// import RIghtSideBar from './components/RightSide/RIghtSideBar';
+import SocialModal from './components/Modal/SocialModal';
+import MarketModal from './components/Modal/MarketModal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-  <BrowserRouter>
-    <>
+<>
+
+  <BrowserRouter basename='/'>
       <Navbar />
       <NavbarMobile/>
       <Routes>
-        <Route path='/' element={<App />}/>
+        <Route path='/' element={<App />} />
         <Route path='/register' element={<RegisterRoute />}/>
+        <Route path='/login' element={<LoginRoute />} />
         <Route path="*" element={<App />} />
-        <Route path="/login" element={<LoginRoute />} />
         <Route path="/forgotpassword" element={<ForgetPassword />} />
         <Route path="/airtime" element={<AirtimeSide />} />
         <Route path="/profile" element={<UserRoute />} />
         <Route path="/note/" element={<ApiResult />} />
-
-        {/* <Route path="/social" element={<SocialModal />} />
-        <Route path="/market" element={<MarketModal />} /> */}
       </Routes>
+      <SocialModal />
+      <MarketModal />
+
       <NavFixButttom />
-    </>
 
   </BrowserRouter>
 
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+  </>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

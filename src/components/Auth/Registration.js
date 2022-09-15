@@ -12,9 +12,9 @@ function Registration(props) {
         <div class="card bg-pattern">
           <div class="card-body p-4">
             <div class="text-center w-75 m-auto">
-              <a href="/">
+              <Link to="/">
               <span><img src={logo} alt="Logo" height="50px" /></span>
-              </a>
+              </Link>
               <p class="text-muted mb-2 mt-3" style={{fontSize: '.8rem'}}>Creating an account with us is easy, it takes less than a minute.</p>
             </div>
             {/* ====== Display error and messages ======= */}
@@ -88,7 +88,7 @@ function Registration(props) {
             </form>
             <div class="row mt-3">
               <div class="col-12 text-center">
-                <p class="">Already have an account?  <a class="text-black ml-1"><Link to='/login'><b>Login</b></Link></a></p>
+                <p class="">Already have an account?  <Link class="text-black ml-1"><Link to='/login'><b>Login</b></Link></Link></p>
               </div>
               {/* ===== end col==== */}
             </div>
@@ -106,9 +106,9 @@ function Registration(props) {
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 text-center"><span class="text-primary">.</span>  Copyright &copy; 2020. Pexcel Global Services All rights reserved. 
-            <a href="https://api.whatsapp.com/send?phone=2348129974967&amp;text=Hello%20Pexcel,%20I%20Team%20">
+            <Link to="https://api.whatsapp.com/send?phone=2348129974967&amp;text=Hello%20Pexcel,%20I%20Team%20">
               <small style={{color: "red"}}>&nbsp; chat via whatsapp</small>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

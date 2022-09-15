@@ -1,9 +1,14 @@
 import React from 'react';
+import instagram from '../../assets/instagram.jpg';
+import twitter from '../../assets/twitter.png';
+import youtube from '../../assets/youtube.jpg';
+import {Link} from 'react-router-dom';
+
 
 const RIghtSideBar = (props) => {
   return (
     <div className="col-md-4 col-lg-3 col-xl-3 d-none d-md-block">
-    <div className='' style={{width: "285px", position: "fixed", overflowY: 'scroll', height: '70%'}}>
+    <div className='' style={{width: "285px", position: "fixed", height: '70%'}}>
     <div class="_1kMqXwfg5O">
       <div class="_11UHTgcafn">
         <h4>Recent Activities</h4>
@@ -13,7 +18,7 @@ const RIghtSideBar = (props) => {
         <div id="showActivities" class="_2e24fyrGqP">
           <div class="HDrM5yh-5L">
             <div>
-              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src="./static/media/instagram.42963298.jpg" alt='' style={{width: "36px", height: "36px"}} /></div>
+              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src={instagram} alt='' style={{width: "36px", height: "36px"}} /></div>
             </div>
             <div class="_2hdwsRooS_">
               <div class="_2JBTDCPlOC">
@@ -23,7 +28,7 @@ const RIghtSideBar = (props) => {
           </div>
           <div class="HDrM5yh-5L">
             <div>
-              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src="./static/media/tiktok.4f4c339d.png" alt='' style={{width: "36px", height: "36px"}} /></div>
+              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src={twitter} alt='' style={{width: "36px", height: "36px"}} /></div>
             </div>
             <div class="_2hdwsRooS_">
               <div class="_2JBTDCPlOC">
@@ -33,7 +38,7 @@ const RIghtSideBar = (props) => {
           </div>
           <div class="HDrM5yh-5L">
             <div>
-              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src="./static/media/facebook.81eda97d.png" alt='' style={{width: "36px", height: "36px"}} /></div>
+              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src={youtube} alt='' style={{width: "36px", height: "36px"}} /></div>
             </div>
             <div class="_2hdwsRooS_">
               <div class="_2JBTDCPlOC">
@@ -43,7 +48,7 @@ const RIghtSideBar = (props) => {
           </div>
           <div class="HDrM5yh-5L">
             <div>
-              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src="./static/media/instagram.42963298.jpg" alt='' style={{width: "36px", height: "36px"}} /></div>
+              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src={instagram} alt='' style={{width: "36px", height: "36px"}} /></div>
             </div>
             <div class="_2hdwsRooS_">
               <div class="_2JBTDCPlOC">
@@ -53,27 +58,7 @@ const RIghtSideBar = (props) => {
           </div>
           <div class="HDrM5yh-5L">
             <div>
-              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src="./static/media/instagram.42963298.jpg" alt='' style={{width: "36px", height: "36px"}} /></div>
-            </div>
-            <div class="_2hdwsRooS_">
-              <div class="_2JBTDCPlOC">
-                <p>@usmanx from <b>Wase, Plateau</b> just earned <b>₦3</b> for following a page or account on Instagram</p>
-              </div>
-            </div>
-          </div>
-          <div class="HDrM5yh-5L">
-            <div>
-              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src="./static/media/facebook.81eda97d.png" alt='' style={{width: "36px", height: "36px"}} /></div>
-            </div>
-            <div class="_2hdwsRooS_">
-              <div class="_2JBTDCPlOC">
-                <p>@stephany03 from <b>Oshimili North, Delta</b> just earned <b>₦3</b> for liking a page on Facebook</p>
-              </div>
-            </div>
-          </div>
-          <div class="HDrM5yh-5L">
-            <div>
-              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src="./static/media/instagram.42963298.jpg" alt='' style={{width: "36px", height: "36px"}} /></div>
+              <div class="_5uGUhiNY0y null null" style={{width: "36px", height: "36px"}}><img src={twitter} alt='' style={{width: "36px", height: "36px"}} /></div>
             </div>
             <div class="_2hdwsRooS_">
               <div class="_2JBTDCPlOC">
@@ -83,7 +68,7 @@ const RIghtSideBar = (props) => {
           </div>
         </div>
       </div>
-      <div class="_2ekqb6o0Qj"><a href="#/activities">View More <span class="fa fa-chevron-down"></span></a></div>
+      <div class="_2ekqb6o0Qj"><Link to="#/activities">View More <span class="fa fa-chevron-down"></span></Link></div>
       </div>
     </div>
     </div>
