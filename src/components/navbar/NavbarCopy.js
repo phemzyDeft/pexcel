@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo-light.jpg';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 function Navbar(props) {
   return (
@@ -29,11 +29,11 @@ function Navbar(props) {
                 </form>
               </div>
               <div class="d-none d-md-flex _3z2UmOiyg0 col-md-5">
-                <Link to='/'><div class="_2C2pTUFVD5"><a aria-current="page" class="Vqgw7nl4yp" href=""><i class="fa fa-home" style={{padding: '3px'}}></i>Home</a></div></Link>
-                <Link to='/airtime'><div class="_2C2pTUFVD5"><a href=""><i class="fa fa-signal" style={{padding: '3px'}}></i>Airtime</a></div></Link>
-                <Link to='/'><div class="_2C2pTUFVD5" data-bs-toggle="modal" data-bs-target="#SocialMenuModal"><a href='/'><i class="fa fa-thumbs-up" style={{padding: '3px'}}></i>Go Social</a></div></Link>
-                <Link to='/'><div  class="d-none d-sm-flex _2C2pTUFVD5" data-bs-toggle="modal" data-bs-target="#MarketMenuModal"><a href=''><i class="fa fa-store" style={{padding: '3px'}}></i>Market</a></div></Link>
-                <Link to='/more'><div class="d-none d-sm-flex _2C2pTUFVD5"><a class="mr-0" href="/"><i class="fa fa-bars" style={{padding: '3px'}}></i>More</a></div></Link>
+                <NavLink to='/'><div class="_2C2pTUFVD5"><a aria-current="page" class="Vqgw7nl4yp" href="/"><i class="fa fa-home" style={{padding: '3px'}}></i>Home</a></div></NavLink>
+                <NavLink to='/airtime'><div class="_2C2pTUFVD5"><a href="/"><i class="fa fa-signal" style={{padding: '3px'}}></i>Airtime</a></div></NavLink>
+                <NavLink to='/social'><div class="_2C2pTUFVD5" data-toggle="modal" data-target="#SocialMenuModal"><a href='/'><i class="fa fa-thumbs-up" style={{padding: '3px'}}></i>Go Social</a></div></NavLink>
+                <NavLink to='/'><div  class="d-none d-sm-flex _2C2pTUFVD5"><a href='/'><i class="fa fa-store" style={{padding: '3px'}}></i>Market</a></div></NavLink>
+                <NavLink to='/market'><div class="d-none d-sm-flex _2C2pTUFVD5"><a class="mr-0" href="/"><i class="fa fa-users" style={{padding: '3px'}}></i>Users</a></div></NavLink>
               </div>
               <div class="e6_Obm5KyG col-md-2">
                 <Link to='/login'><div><a class="btn btn-coloured-heavy btn-xl mr-2">Login</a></div></Link>

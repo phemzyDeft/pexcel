@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import instagram from '../../assets/instagram.jpg';
 import twitter from '../../assets/twitter.png';
 import youtube from '../../assets/youtube.jpg';
@@ -18,7 +18,7 @@ function SocialTaskandEarn(props) {
                 <button onClick={()=>navigate(-1)} class="Hik1431SkT "><i class="fas fa-chevron-left"></i></button>
                 <div class="_1hRRHbR2ht">
                   <h4>Perform Social Task and Earn</h4>
-                  <p>Click <Link to="#/social/orders">here</Link> to see and monitor your past orders and adverts</p>
+                  <p>Click <a href="/social/orders">here</a> to see and monitor your past orders and adverts</p>
                 </div>
               </div>
             </div>
@@ -26,7 +26,7 @@ function SocialTaskandEarn(props) {
           <div class="_1j1Y2uDJtw">
             <p>Get people with atleast 1000 active followers to repost your adverts and perform certain social tasks for you on their social media accounts. Select the type of task you want people to perform below:</p>
           </div>
-          <Link to='/social/earn' class="_1zsjzLdkTO">
+          <a href='/social/earn' class="_1zsjzLdkTO">
             <div class="_3RFsgC6sjq"><img src={twitter} alt="icon" /></div>
             <div class="_1Zkvm9fWrt">
               <div class="_2Psm6UECiE">
@@ -36,8 +36,8 @@ function SocialTaskandEarn(props) {
               <p>Get Real and Authentic users with active engagements to follow your social media pages. We DO NOT allow fake users or bots to follow accounts.</p>            
             </div>
                 
-          </Link>
-          <Link to='/social/earn' class="_1zsjzLdkTO">
+          </a>
+          <a href='/social/earn' class="_1zsjzLdkTO">
             <div class="_3RFsgC6sjq"><img src={youtube} alt="icon" /></div>
             <div class="_1Zkvm9fWrt">
               <div class="_2Psm6UECiE">
@@ -47,8 +47,8 @@ function SocialTaskandEarn(props) {
               <p>Get Real and Authentic users with active engagements to follow your social media pages. We DO NOT allow fake users or bots to follow accounts.</p>            
             </div>
                 
-          </Link>
-          <Link to='/social/earn' class="_1zsjzLdkTO">
+          </a>
+          <a href='/social/earn' class="_1zsjzLdkTO">
             <div class="_3RFsgC6sjq"><img src={whatsapp} alt="icon" /></div>
             <div class="_1Zkvm9fWrt">
               <div class="_2Psm6UECiE">
@@ -58,8 +58,8 @@ function SocialTaskandEarn(props) {
               <p>Get Real and Authentic users with active engagements to follow your social media pages. We DO NOT allow fake users or bots to follow accounts.</p>            
             </div>
                 
-          </Link>
-          <Link to='/social/earn' class="_1zsjzLdkTO">
+          </a>
+          <a href='/social/earn' class="_1zsjzLdkTO">
             <div class="_3RFsgC6sjq"><img src={twitter} alt="icon" /></div>
             <div class="_1Zkvm9fWrt">
               <div class="_2Psm6UECiE">
@@ -69,8 +69,8 @@ function SocialTaskandEarn(props) {
               <p>Get Real and Authentic users with active engagements to follow your social media pages. We DO NOT allow fake users or bots to follow accounts.</p>            
             </div>
                 
-          </Link>
-          <Link to='/social/earn' class="_1zsjzLdkTO">
+          </a>
+          <a href='/social/earn' class="_1zsjzLdkTO">
             <div class="_3RFsgC6sjq"><img src={whatsapp} alt="icon" /></div>
             <div class="_1Zkvm9fWrt">
               <div class="_2Psm6UECiE">
@@ -80,8 +80,8 @@ function SocialTaskandEarn(props) {
               <p>Get Real and Authentic users with active engagements to follow your social media pages. We DO NOT allow fake users or bots to follow accounts.</p>            
             </div>
                 
-          </Link>
-          <Link to='/social/earn' class="_1zsjzLdkTO">
+          </a>
+          <a href='/social/earn' class="_1zsjzLdkTO">
             <div class="_3RFsgC6sjq"><img src={instagram} alt="icon" /></div>
             <div class="_1Zkvm9fWrt">
               <div class="_2Psm6UECiE">
@@ -91,7 +91,7 @@ function SocialTaskandEarn(props) {
               <p>Get Real and Authentic users with active engagements to follow your social media pages. We DO NOT allow fake users or bots to follow accounts.</p>            
             </div>
                 
-          </Link>
+          </a>
 
             
           </div>

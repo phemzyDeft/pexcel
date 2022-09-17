@@ -11,7 +11,6 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
-
 button:focus,
 button:hover {
   outline: none;
@@ -674,7 +673,6 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-grow: 1;
-  /* margin-right: 1rem; */
   height: 100%
 }
 
@@ -2480,7 +2478,6 @@ a:hover {
 }
 
 ._2OOFlEI1jS {
-  /* background: #fff; */
   cursor: pointer;
   display: flex;
 
@@ -2691,12 +2688,6 @@ a:hover {
 ._39Zy4vLNJR {
   padding: 0 .4rem
 }
-
-/* @media (min-width:768px) {
-  ._39Zy4vLNJR {
-     padding: 0
-  }
-} */
 
 .YIySTFv4j7 {
   display: flex;

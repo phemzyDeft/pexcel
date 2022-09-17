@@ -11,10 +11,10 @@ function Registration(props) {
       <div class="col-md-7">
         <div class="card bg-pattern">
           <div class="card-body p-4">
-            <div class="text-center w-75 m-auto">
-              <Link to="/">
+            <div class="text-center w-75 m-auhref">
+              <a href="/">
               <span><img src={logo} alt="Logo" height="50px" /></span>
-              </Link>
+              </a>
               <p class="text-muted mb-2 mt-3" style={{fontSize: '.8rem'}}>Creating an account with us is easy, it takes less than a minute.</p>
             </div>
             {/* ====== Display error and messages ======= */}
@@ -22,7 +22,7 @@ function Registration(props) {
             </div>
             {/* ====== End Display error and messages===== */}
             <form method="POST">
-              <input type="hidden" name="csrfmiddlewaretoken" value="gJNsRkOxXn45btgygKbFC6ZqXbV9snxhbBKvaqFmcZSxBWZQBZ4v0ouBCk9E96tF" />
+              <input type="hidden" name="csrfmiddlewarehrefken" value="gJNsRkOxXn45btgygKbFC6ZqXbV9snxhbBKvaqFmcZSxBWZQBZ4v0ouBCk9E96tF" />
               <div class="row">
                 <div class="col-md-4 pt-3">
                   <div class="form-group">
@@ -38,7 +38,7 @@ function Registration(props) {
                 <div class="col-md-4 pt-3">
                   <div class="form-group">
                     <label for="id_first_name">First Name</label>
-                    <input type="text" name="first_name" autofocus="" placeholder="Enter first name here" class="form-control" required="" id="id_first_name" />
+                    <input type="text" name="first_name" auhreffocus="" placeholder="Enter first name here" class="form-control" required="" id="id_first_name" />
                   </div>
                 </div>
                 <div class="col-md-4 pt-3">
@@ -64,7 +64,7 @@ function Registration(props) {
                 <div class="col-md-6 pt-3">
                   <div class="form-group">
                     <label for="id_username">Username</label>
-                    <input type="text" name="username" maxlength="20" autofocus="" placeholder="Enter username here" class="form-control" required="" id="id_username" />
+                    <input type="text" name="username" maxlength="20" auhreffocus="" placeholder="Enter username here" class="form-control" required="" id="id_username" />
                   </div>
                 </div>
               </div>
@@ -83,12 +83,12 @@ function Registration(props) {
                 </div>
               </div>
               <div class="form-group mb-0 text-center pt-4 col-12">
-                <div class="col-sm-12"><button class="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">SIGN UP</button></div>
+                <div class="col-sm-12"><buthrefn class="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">SIGN UP</buthrefn></div>
               </div>
             </form>
             <div class="row mt-3">
               <div class="col-12 text-center">
-                <p class="">Already have an account?  <Link class="text-black ml-1"><Link to='/login'><b>Login</b></Link></Link></p>
+                <p class="">Already have an account?  <a class="text-black ml-1"><Link to='/login'><b>Login</b></Link></a></p>
               </div>
               {/* ===== end col==== */}
             </div>
@@ -102,13 +102,13 @@ function Registration(props) {
     </div>
     {/* === end row === */}
 
-    <div class="footer-bottom mt-3">
+    <div class="footer-bothrefm mt-3">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 text-center"><span class="text-primary">.</span>  Copyright &copy; 2020. Pexcel Global Services All rights reserved. 
-            <Link to="https://api.whatsapp.com/send?phone=2348129974967&amp;text=Hello%20Pexcel,%20I%20Team%20">
+            <a href="https://api.whatsapp.com/send?phone=2348129974967&amp;text=Hello%20Pexcel,%20I%20Team%20">
               <small style={{color: "red"}}>&nbsp; chat via whatsapp</small>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

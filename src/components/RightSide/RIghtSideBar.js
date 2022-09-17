@@ -5,7 +5,7 @@ import youtube from '../../assets/youtube.jpg';
 import {Link} from 'react-router-dom';
 
 
-const RIghtSideBar = (props) => {
+const RightSideBar = (props) => {
   return (
     <div className="col-md-4 col-lg-3 col-xl-3 d-none d-md-block">
     <div className='' style={{width: "285px", position: "fixed", height: '70%'}}>
@@ -68,11 +68,11 @@ const RIghtSideBar = (props) => {
           </div>
         </div>
       </div>
-      <div class="_2ekqb6o0Qj"><Link to="#/activities">View More <span class="fa fa-chevron-down"></span></Link></div>
+      <div class="_2ekqb6o0Qj"><Link to="/">View More <span class="fa fa-chevron-down"></span></Link></div>
       </div>
     </div>
     </div>
   );
 }
 
-export default RIghtSideBar;
+export default RightSideBar;

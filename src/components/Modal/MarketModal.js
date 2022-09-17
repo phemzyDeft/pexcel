@@ -29,7 +29,7 @@ const MarketModal = (props) => {
                           <p class="f-10">Earn Daily by performing social tasks such as Follow, Like, Comment, Share, Retweet, App Reviews, Whatsapp Post etc.</p>
                         </div>
                         <div class="_1y-DPoKFhx">
-                          <p><button class="btn btn-outline mb-1" data-bs-dismiss="modal">GET STARTED</button></p>
+                          <Link to='/referral'><button class="btn btn-outline mb-1" data-bs-dismiss="modal">GET STARTED</button></Link>
                         </div>
                       </div>
                     </div>

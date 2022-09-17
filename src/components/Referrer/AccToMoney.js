@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 function AccToMoney(props) {
   return (
@@ -43,7 +43,7 @@ function AccToMoney(props) {
                   <p>
                     <b>Earn steady daily figures</b> by following, liking, commenting,
                     sharing, retweeting or posting adverts for businesses on your social
-                    media. Click <Link to="/airtime">here</Link> to see what you will earn when
+                    media. Click <a href="/airtime">here</a> to see what you will earn when
                     you perform social tasks
                   </p>
                 </li>
@@ -51,7 +51,7 @@ function AccToMoney(props) {
                   <p>
                     <b>Earn an Instant Referral Commission of ₦500</b> when you refer
                     someone to become a member on Pexcel. The more you refer, the more you
-                    earn. Click <Link to="#/earn/referral">here</Link> to learn how referral
+                    earn. Click <a href="#/earn/referral">here</a> to learn how referral
                     works.
                   </p>
                 </li>
@@ -59,7 +59,7 @@ function AccToMoney(props) {
                   <p>
                     <b> Earn Social Boost Referral Commission of 20% of any amount paid </b>
                     when you refer someone to Buy Likes, Followers, Comments, Shares,
-                    Whatsapp Post Views etc. Click <Link to="#/earn/referral">here</Link> to
+                    Whatsapp Post Views etc. Click <a href="#/earn/referral">here</a> to
                     learn how referral works.
                   </p>
                 </li>
@@ -67,7 +67,7 @@ function AccToMoney(props) {
                   <p>
                     <b>Start Your Airtime/Data Business on Pexcel.</b> Buy Airtime or Data
                     on Pexcel at up to 10% - 50% Discount and Sell to friends and family at
-                    normal prices. Click <Link to="#/airtime">here</Link> to see airtime and
+                    normal prices. Click <a href="#/airtime">here</a> to see airtime and
                     data pricing.
                   </p>
                 </li>
@@ -75,7 +75,7 @@ function AccToMoney(props) {
                   <p>
                     <b>Sell Anything on Pexcel Market.</b> As a member, you can take
                     advantage of the huge traffic we have and place your products in front
-                    of thousands of buyers. Click <Link to="#/shop/sell">here</Link> to start
+                    of thousands of buyers. Click <a href="#/shop/sell">here</a> to start
                     selling on Pexcel.
                   </p>
                 </li>

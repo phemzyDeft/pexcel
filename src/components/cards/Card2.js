@@ -3,7 +3,7 @@ import social from '../../assets/social.jpg';
 import subscription from '../../assets/networks.png';
 import market from '../../assets/market.png';
 import avatar from '../../assets/user-avatar.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 const Card2 = (props) => {
@@ -92,7 +92,7 @@ const Card2 = (props) => {
           <p class="f-10">Manage and Edit your profile, View your earnings, Fund your Wallet, withdraw your funds into your bank account etc.</p>
         </div>
         <div class="_3VOh5h7691">
-          <Link to='/more'><p><a class="btn btn-outline mb-1" href="#/users/janetpexcel">MY PROFILE</a></p></Link>
+          <a href='/more'><p><a class="btn btn-outline mb-1" href="#/users/janetpexcel">MY PROFILE</a></p></a>
         </div>
       </div>
     </div>

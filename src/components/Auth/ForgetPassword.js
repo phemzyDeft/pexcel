@@ -12,7 +12,7 @@ const ForgetPassword = (props) => {
 
                     <div class="card-body p-4">
                         
-                        <div class="text-center w-75 m-auto">
+                        <div class="text-center w-75 m-auhref">
                             <Link to="/">
                                 <span><img src={logo} alt="" height="22" /></span>
                             </Link>
@@ -29,7 +29,7 @@ const ForgetPassword = (props) => {
                         <form method=""><input type="hidden" name="" value=""/>
                             <p class="text-muted mb-2 mt-3 text-center">Reset your password.
                                 <br />
-                                Enter your email address and we'll send you an email with instructions to reset your password.
+                                Enter your email address and we'll send you an email with instructions href reset your password.
                             </p>
                             <div class="row mt-4">
                                 <div class="col-md-12">
@@ -48,7 +48,7 @@ const ForgetPassword = (props) => {
                             </div>
 
                             <div class="col-12 text-center mt-2">
-                                <Link class="text-black"><Link to='/login'><b>back to login</b></Link></Link>
+                                <a class="text-black"><Link to='/login'><b>back to login</b></Link></a>
                             </div>
                             
                         </form>
@@ -65,13 +65,13 @@ const ForgetPassword = (props) => {
 {/*-- end page -*/}
 
  {/*-- Footer ==== -*/}
-<div class="footer-bottom">
+<div class="footer-bothrefm">
     <div class="container">
         <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 text-center"><span class="text-primary">.</span>  All Rights Reserved. 
-    <Link to="https://api.whatsapp.com/send?phone=2348129974967&amp;text=Hello%20Pexcel,%20I%20Team%20">
+    <a href="https://api.whatsapp.com/send?phone=2348129974967&amp;text=Hello%20Pexcel,%20I%20Team%20">
       <small style={{color: "red"}}>&nbsp; chat via whatsapp</small>
-    </Link>
+    </a>
     </div>
         </div>
     </div>

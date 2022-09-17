@@ -12,17 +12,11 @@ const Sidebar = (props) => {
     <div className='' style={{background: 'white', width: "260px", position: "fixed", height: '80%'}}>
 
       <div class="">
-          <div class="_2EjbQWOf09">
-            <div class="_3D4lABzCaf">
-              <h6 class="mb-2">Earn Steady Daily Figures from the Comfort of Your Phone</h6>
-              <p>Simply <Link to='#' style={{color: 'blue', cursor: 'pointer'}}><Link to='/login'>Log in</Link></Link> or <Link to='#' style={{color: 'blue', cursor: 'pointer'}}><Link to='/register'>Register</Link></Link> to enjoy the amazing features on Pexcel.</p>
-            </div>
-          </div>
           <div>
             <div class="_11PWIxa7sR">
               <div class="_2zRk7HyIM2">
                 <div class="_3P_lPbWL-z">
-                  <Link target="" to="#/social/tasks">
+                  <a target="" href="#/social/tasks">
                     <div class="_3J87aHBaCs">
                       <div class="ud7QCJoyU6">
                         <div class="_1hrHQwVWFY">
@@ -34,10 +28,10 @@ const Sidebar = (props) => {
                         <p>Earn daily income by following, liking, commenting, sharing, retweeting or posting adverts for businesses on your social media</p>
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 </div>
                 <div class="_3P_lPbWL-z">
-                  <Link target="" to="#/social/buy/pricing">
+                  <a target="" href="#/social/buy/pricing">
                     <div class="_3J87aHBaCs">
                       <div class="ud7QCJoyU6">
                         <div class="_1hrHQwVWFY">
@@ -49,10 +43,25 @@ const Sidebar = (props) => {
                         <p>Get Real Followers, Likes, Comments, Shares, Retweets, Views or Reviews on your social media posts and account instantly.</p>
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 </div>
                 <div class="_3P_lPbWL-z">
-                  <Link target="" to="#/social/buy/pricing">
+                  <a target="" href="#/social/buy/pricing">
+                    <div class="_3J87aHBaCs">
+                      <div class="ud7QCJoyU6">
+                        <div class="_1hrHQwVWFY">
+                          <div class="_1wbTpsTsPs align-items-start" ><img src={task} alt="" /></div>
+                        </div>
+                      </div>
+                      <div class="_1k1KIlYn7k">
+                        <h6>Boost Your Social Portfolio</h6>
+                        <p>Get Real Followers, Likes, Comments, Shares, Retweets, Views or Reviews on your social media posts and account instantly.</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="_3P_lPbWL-z">
+                  <a target="" href="#/social/buy/pricing">
                     <div class="_3J87aHBaCs">
                       <div class="ud7QCJoyU6">
                         <div class="_1hrHQwVWFY">
@@ -64,16 +73,16 @@ const Sidebar = (props) => {
                         <p>Get Real Followers, Likes, Comments, Shares, Retweets, Views or Reviews on your social media posts and account instantly.</p>
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div class="_2U5oUBl1ux">
-                <p>Download the Pexcel Mobile App today and Enjoy a Seamless Experience with Instant Notifications</p>
+                <p>Download the Pexcel Mobile App hrefday and Enjoy a Seamless Experience with Instant Notifications</p>
               </div>
           </div>
           </div>
         </div>
-        <div class="_3G7L5Lphh_"><Link class="mr-1"><img src={google_play} alt="google-play-store" /></Link><Link class="h-100"><img src={apple_play} alt="apple-play-store" /></Link></div>
+        <div class="_3G7L5Lphh_"><a href="https://www.playstore.com" class="mr-1 cursor-pointer"><img src={google_play} alt="google-play-shrefre" /></a><a href="https://www.applestore.com" class="h-100"><img src={apple_play} alt="apple-play-shrefre" /></a></div>
       </div>
 
     </div>

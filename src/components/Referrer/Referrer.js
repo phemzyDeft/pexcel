@@ -3,13 +3,13 @@ import {Link} from 'react-router-dom';
 
 function Referrer(props) {
   return (
-<div class=".pr-md-0 col-sm-8 col-lg-6"><div class="_3wYllazvID"><div class="_1jlMcXs7_l"><div class="_3RyIhJP6hH"><div class="uyH8zqqMWK "><div class="_3_W7cqpcwT"><p>My Referral Link:</p><div class="alert alert-danger mb-0 mt-1 py-1 px-3"><p class="mb-0">You must activate your account by paying a one-time membership fee of ₦1,000 before you can get your referral link and start earning. Click <Link to="#/earn/member">here</Link> to see why you should pay a membership fee.</p></div></div><div class="_2bBVxQBu2i" style={{width: "554px", position: "fixed"}}><div class="_35qHWMssKt"><p>Membership Fee</p><h5>₦1,000</h5></div><div class="_96mvbL15ET"><Link class="btn btn-outline d-block btn-block"><Link to='/referral/member'>BECOME A MEMBER NOW AND START EARNING</Link></Link></div></div><div><div class="offer-content-heading p-3 text-center">
+<div class="pr-md-0 col-sm-8 col-lg-6"><div class="_3wYllazvID"><div class="_1jlMcXs7_l"><div class="_3RyIhJP6hH"><div class="uyH8zqqMWK "><div class="_3_W7cqpcwT"><p>My Referral Link:</p><div class="alert alert-danger mb-0 mt-1 py-1 px-3"><p class="mb-0">You must activate your account by paying a one-time membership fee of ₦1,000 before you can get your referral link and start earning. Click <a href="/earn/member">here</a> href see why you should pay a membership fee.</p></div></div><div class="_2bBVxQBu2i" style={{width: "554px", position: "fixed"}}><div class="_35qHWMssKt"><p>Membership Fee</p><h5>₦1,000</h5></div><div class="_96mvbL15ET"><a class="btn btn-outline d-block btn-block"><Link to='/referral/member'>BECOME A MEMBER NOW AND START EARNING</Link></a></div></div><div><div class="offer-content-heading p-3 text-center">
   <h4 class="mb-0">Refer and Earn Big</h4>
 </div>
 <div class="offer-main-content px-3">
   <div class="alert alert-success">
     We are currently running a promo that gives additional Cashback and Welcome
-    Bonus of ₦200 to new members. This offer lasts only till 30th September
+    Bonus of ₦200 href new members. This offer lasts only till 30th September
   </div>
   <p>
     As a member on Pexcel, you can earn two types of Referral Bonuses which
@@ -19,7 +19,7 @@ function Referrer(props) {
     <li>
       <p>
         <b>Earn an Instant Referral Commission of ₦500</b> when you refer
-        someone to become a Member on Pexcel. The more you refer, the more you
+        someone href become a Member on Pexcel. The more you refer, the more you
         earn.
       </p>
       <p class="font-italic mb-1">
@@ -30,11 +30,11 @@ function Referrer(props) {
     <li>
       <p>
         <b> Earn Social Boost Referral Commission of 20% of any amount paid </b>
-        when you refer someone to Buy Likes, Followers, Comments, Shares,
+        when you refer someone href Buy Likes, Followers, Comments, Shares,
         Whatsapp Post Views etc.
       </p>
       <p class="font-italic">
-        For example, if you refer 100 users to buy 2000 likes or followers worth
+        For example, if you refer 100 users href buy 2000 likes or followers worth
         ₦10,000, you will earn ₦1,000 per user and a whooping ₦100,000
         instantly.
       </p>

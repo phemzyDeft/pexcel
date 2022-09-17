@@ -41,7 +41,7 @@ const AirtimeSidebar = (props) => {
       <div class="_2pTwXAVqNQ">
         <div class="_1v_ayYi5wJ">
           <p>Sort By:</p>
-          <select class="form-control custom-select">
+          <select class="form-control cushrefm-select">
             <option value="Most Popular">Most Popular</option>
             <option value="Price (High)">Price (High)</option>
             <option value="Price (Low)">Price (Low)</option>

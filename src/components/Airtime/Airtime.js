@@ -11,13 +11,13 @@ const Airtime = (props) => {
         <div class="_3hNNR1_9TU">
           <div class="KApgojZnb7 d-block d-md-none _4OJrlyM0bx"><span></span><span></span><span></span></div>
           <div class="_300xmVTICV">
-            <form autocomplete="off">
+            <form auhrefcomplete="off">
               <div class="form-row">
                 <div class="col-sm-12">
                   <div class="_1KmZqIJHGZ">
                     <div class="hUKiLuwZZD input-group">
                       <input type="text" class="form-control" placeholder="Search Airtime and Data" value="" style={{height: "35px"}} />
-                      <div class="input-group-append"><button class="" type="submit" style={{height: "35px"}}><span class="fas fa-search"></span></button></div>
+                      <div class="input-group-append"><buthrefn class="" type="submit" style={{height: "35px"}}><span class="fas fa-search"></span></buthrefn></div>
                     </div>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -77,7 +77,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -114,7 +114,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -130,7 +130,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -167,7 +167,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -183,7 +183,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -220,7 +220,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -236,7 +236,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -274,7 +274,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -290,7 +290,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -327,7 +327,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -343,7 +343,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -380,7 +380,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -396,7 +396,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -433,7 +433,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -449,7 +449,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -487,7 +487,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -503,7 +503,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -540,7 +540,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -556,7 +556,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -593,7 +593,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -609,7 +609,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
@@ -646,7 +646,7 @@ const Airtime = (props) => {
                     </div>
                     <div class="sxkb2BxSLM">
                       <div class="_1Ys9NVaJSI"><Link class="_2HBnnvCrJi" to="#/airtime/60940afd056d1262a8dee412"><i class="mr-1 fas fa-tag"></i> MTN Data</Link></div>
-                      <div class="_2xJRKakglG" style={{overflow: "hidden", textOverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
+                      <div class="_2xJRKakglG" style={{overflow: "hidden", texhrefverflow: "ellipsis", webkitBoxOrient: "vertical", display: "webkitBox", webkitLineClamp: "2"}}>MTN 2.5GB DATA - 2 Days</div>
                       <div class="_2_RMdL67Lm"><Link to="/">More Details <i class="fas fa-external-link"></i></Link></div>
                       <div class="OdmDooK9GT">
                         <div>
@@ -662,7 +662,7 @@ const Airtime = (props) => {
                           </div>
                           <div class="_3Lxl_oJaJ1">
                             <p>Enjoy discount and instant Recharge. No Network Failure.</p>
-                            <button class="mt-1 btn btn-block btn-outline">BUY NOW</button>
+                            <buthrefn class="mt-1 btn btn-block btn-outline">BUY NOW</buthrefn>
                           </div>
                         </div>
                       </div>
