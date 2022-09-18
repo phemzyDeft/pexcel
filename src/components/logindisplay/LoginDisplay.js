@@ -1,19 +1,19 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const LoginDisplay = (props) => {
   return (
     <div class="_3amMSmObol">
       <div class="_5ERPmRfOLO d-flex justify-content-between">
-        <p>Welcome, janet</p>
-        <p class="ml-auhref"><a href="#/logout"><i class="fas fa-power-off"></i> Logout</a></p>
+        <p>Welcome, user</p>
+        <p class="ml-auhref"><Link to="#/logout"><i class="fas fa-power-off"></i> Logout</Link></p>
       </div>
       <div class="pScdTmddwf">
         <p class="f-12 mb-1">My Balance</p>
         <h1>₦0.00</h1>
         <p>
-          <a class="btn btn-outline mr-2" href="#" style={{marginRight: '.5rem'}}><i class="fas fa-wallet"></i> Fund</a>
-          <a class="btn btn-outline" href="#"><i class="fas fa-share-square"></i> Withdraw</a>
+          <Link class="btn btn-outline mr-2" to="" style={{marginRight: '.5rem'}}><i class="fas fa-wallet"></i> Fund</Link>
+          <Link class="btn btn-outline" to="#"><i class="fas fa-share-square"></i> Withdraw</Link>
         </p>
       </div>
       <div class="_3B7cEiPGDD">

@@ -6942,7 +6942,7 @@ a:hover {
 ._2bBVxQBu2i,
 ._3-5S59wEOq {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 ._2bBVxQBu2i {
@@ -6955,7 +6955,7 @@ a:hover {
 
 @media (max-width:767.99px) {
   ._2bBVxQBu2i {
-     bottom: 60px
+     bottom: 60px;
   }
 }
 

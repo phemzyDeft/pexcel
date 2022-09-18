@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 function NavbarMobile(props) {
   return (
-    <div class="._2HKXu-Z6A0 d-lg-none d-xl-none">
+    <div class="._2HKXu-Z6A0 d-lg-none d-xl-none ">
     <div class="_3yy5qylBdf">
       <div class="container-fluid h-100">
         <div class="row h-100">
@@ -14,9 +14,9 @@ function NavbarMobile(props) {
                 <div class="e_P_8k4OrR"><a href="#/"><img src={logo} alt="" /></a></div>
               </div>
               <div class="e6_Obm5KyG col-md-2">
-                <a href='/login'><div><a class="btn btn-coloured-heavy btn-xl mr-2">Login</a></div></a>
+                <Link to='/login'><div><a class="btn btn-coloured-heavy btn-xl mr-2">Login</a></div></Link>
                   &nbsp; &nbsp;
-                <a href='/register'><div><a class="btn btn-outline btn-xl">Sign Up</a></div></a>
+                <Link to='/register'><div><a class="btn btn-outline btn-xl">Sign Up</a></div></Link>
               </div>
             </div>
           </div>

@@ -3,10 +3,10 @@ import {Link} from 'react-router-dom';
 
 function Referrer(props) {
   return (
-<div class="pr-md-0 col-sm-8 col-lg-6"><div class="_3wYllazvID"><div class="_1jlMcXs7_l"><div class="_3RyIhJP6hH"><div class="uyH8zqqMWK "><div class="_3_W7cqpcwT"><p>My Referral Link:</p><div class="alert alert-danger mb-0 mt-1 py-1 px-3"><p class="mb-0">You must activate your account by paying a one-time membership fee of ₦1,000 before you can get your referral link and start earning. Click <a href="/earn/member">here</a> href see why you should pay a membership fee.</p></div></div><div class="_2bBVxQBu2i" style={{width: "554px", position: "fixed"}}><div class="_35qHWMssKt"><p>Membership Fee</p><h5>₦1,000</h5></div><div class="_96mvbL15ET"><a class="btn btn-outline d-block btn-block"><Link to='/referral/member'>BECOME A MEMBER NOW AND START EARNING</Link></a></div></div><div><div class="offer-content-heading p-3 text-center">
+<div class="pr-md-0 col-sm-8 col-lg-6"><div class="_3wYllazvID"><div class="_1jlMcXs7_l"><div class="_3RyIhJP6hH"><div class="uyH8zqqMWK "><div class="_3_W7cqpcwT"><p>My Referral Link:</p><div class="alert alert-danger mb-0 mt-1 py-1 px-3"><p class="mb-0">You must activate your account by paying a one-time membership fee of ₦1,000 before you can get your referral link and start earning. Click <Link to="/earn/member">here</Link> to see why you should pay a membership fee.</p></div></div><div class="_2bBVxQBu2i" style={{width: "545px", position: "fixed"}}><div class="_35qHWMssKt"><p>Membership Fee</p><h5>₦1,000</h5></div><div class="_96mvbL15ET"><p class="btn btn-outline"><Link to='/referral/member'>Earn as a member</Link></p></div></div><div><div class="offer-content-heading p-3 text-center">
   <h4 class="mb-0">Refer and Earn Big</h4>
 </div>
-<div class="offer-main-content px-3">
+<div class="offer-main-content px-3 pb-5 pb-lg-0">
   <div class="alert alert-success">
     We are currently running a promo that gives additional Cashback and Welcome
     Bonus of ₦200 href new members. This offer lasts only till 30th September

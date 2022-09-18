@@ -8,7 +8,7 @@ import avatar from '../../assets/user-avatar.png';
 
 const Card2 = (props) => {
   return (
-<div class="_39Zy4vLNJR my-2">
+<div class="_39Zy4vLNJR mt-2 mb-5 pb-3 mt-lg-2 mb-lg-0 pb-lg-0 px-3 px-lg-2">
   <div class="row .no-gutters">
     <div class="col-6 col-md-4 col-lg-4 col-space">
       <div class="YIySTFv4j7 .mr-2">

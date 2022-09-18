@@ -1,5 +1,5 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function NavFixButttom(props) {
   return (
@@ -8,26 +8,22 @@ function NavFixButttom(props) {
       <div class="_3vzLzuRMaE">
         <div class="_37UqOYFzay">
           <div class="_2ci2lv2Zbt">
-            <a href='/'>
-            <a aria-current="page" class="_3P7_v2KK2Y" href="#">
+            <Link aria-current="page" class="_3P7_v2KK2Y" to="/">
               <div class="_37uyQdCwuU">
                 <i class="fa fa-home" style={{fontSize: "20px"}}></i>
                 <p>Home</p>
               </div>
-            </a>
-            </a>
+            </Link>
           </div>
         </div>
         <div class="_37UqOYFzay">
           <div class="_2ci2lv2Zbt">
-          <a href='/airtime'>
-            <a href="#/airtime">
-              <div class="_37uyQdCwuU">
-                <i class="fa fa-signal" style={{fontSize: "20px"}}></i>
-                <p>Airtime</p>
-              </div>
-            </a>
-          </a>
+          <Link to='/airtime'>
+            <div class="_37uyQdCwuU">
+              <i class="fa fa-signal" style={{fontSize: "20px"}}></i>
+              <p>Airtime</p>
+            </div>
+          </Link>
           </div>
           <div class="_1sQ3lMfC9G" style={{width: "10px", height: "10px", top: "10px", right: "2px"}}>
             <div class="_3-trAnZJ_7"></div>
@@ -35,26 +31,22 @@ function NavFixButttom(props) {
         </div>
         <div class="_37UqOYFzay">
           <div class="_2ci2lv2Zbt">
-          <a href='/social'>
-            <a href="/">
-              <div class="null _37uyQdCwuU">
-                <i class="fa fa-thumbs-up" style={{fontSize: "20px"}}></i>
-                <p>Go Social</p>
-              </div>
-            </a>
-          </a>
+          <Link to='/social' data-bs-toggle="modal" data-bs-target="#SocialMenuModal">
+            <div class="null _37uyQdCwuU">
+              <i class="fa fa-thumbs-up" style={{fontSize: "20px"}}></i>
+              <p>Go Social</p>
+            </div>
+          </Link>
           </div>
         </div>
         <div class="_37UqOYFzay">
           <div class="_2ci2lv2Zbt">
-            <a href='/market'>
-            <a href="">
+            <Link to='/market' data-bs-toggle="modal" data-bs-target="#MarketMenuModal">
               <div class="null _37uyQdCwuU">
                 <i class="fa fa-store" style={{fontSize: "20px"}}></i>
                 <p>Market</p>
               </div>
-            </a>
-            </a>
+            </Link>
           </div>
           <div class="_1sQ3lMfC9G" style={{width: "12px", height: "12px", top: "10px", right: "2px"}}>
             <div class="_3-trAnZJ_7"></div>
@@ -62,14 +54,12 @@ function NavFixButttom(props) {
         </div>
         <div class="_37UqOYFzay">
           <div class="_2ci2lv2Zbt">
-            <a href='/login'>
-              <a href="#/settings">
-                <div class="_37uyQdCwuU">
-                  <i class="fa fa-list" style={{fontSize: "20px"}}></i>
-                  <p>More</p>
-                </div>
-              </a>
-            </a>
+            <Link to="/more">
+              <div class="_37uyQdCwuU">
+                <i class="fa fa-list" style={{fontSize: "20px"}}></i>
+                <p>More</p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
