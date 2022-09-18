@@ -10,7 +10,7 @@ import SocialTask from './components/PerformSocialTask/SocialTask';
 import SocialTaskandEarn from './components/PerformSocialTask/SocialTaskandEarn';
 import More from './components/More/More';
 import './index.css';
-import Navbar from './components/navbar/Navbar';
+// import Navbar from './components/navbar/Navbar';
 import SocialModal from './components/Modal/SocialModal';
 
 function App() {
@@ -23,7 +23,6 @@ function App() {
           <Sidebar />
           <Routes>
             <Route path="/" element={<Main />} />
-            <Route path="/" element={<Navbar />} />
             <Route path="/profile" element={<UserRoute />} />
             <Route path="/referral" element={<Referrer />} />
             <Route path="/referral/member" element={<AccToMoney />} />
@@ -31,15 +30,6 @@ function App() {
             <Route path="/social/earn" element={<SocialTaskandEarn />} />
             <Route path="/more" element={<More />} />
           </Routes>
-
-            {/* <SocialTask />
-            <SocialTaskandEarn />
-            <More />
-
-             <AccToMoney />
-            <Main />
-            <UserRoute />
-            <Referrer /> */}
           <RightSideBar />
         </div>
       </div>
