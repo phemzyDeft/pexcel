@@ -11,7 +11,6 @@ import SocialTaskandEarn from './components/PerformSocialTask/SocialTaskandEarn'
 import More from './components/More/More';
 import './index.css';
 // import Navbar from './components/navbar/Navbar';
-import SocialModal from './components/Modal/SocialModal';
 
 function App() {
   return (
