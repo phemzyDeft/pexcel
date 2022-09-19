@@ -48,7 +48,7 @@ const ForgetPassword = (props) => {
                             </div>
 
                             <div class="col-12 text-center mt-2">
-                                <a class="text-black"><Link to='/login'><b>back to login</b></Link></a>
+                                <button class="text-black"><Link to='/login'><b>back to login</b></Link></button>
                             </div>
                             
                         </form>

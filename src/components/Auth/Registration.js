@@ -88,7 +88,7 @@ function Registration(props) {
             </form>
             <div class="row mt-3">
               <div class="col-12 text-center">
-                <p class="">Already have an account?  <a class="text-black ml-1"><Link to='/login'><b>Login</b></Link></a></p>
+                <p class="">Already have an account?  <button class="text-black ml-1"><Link to='/login'><b>Login</b></Link></button></p>
               </div>
               {/* ===== end col==== */}
             </div>

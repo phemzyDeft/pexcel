@@ -4,7 +4,7 @@ import social from '../../assets/social.jpg';
 import subscription from '../../assets/networks.png';
 import google_play from '../../assets/google-play.jpg';
 import apple_play from '../../assets/apple-play.jpg';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 const Sidebar = (props) => {
   return (
