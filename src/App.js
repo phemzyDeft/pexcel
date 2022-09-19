@@ -1,6 +1,6 @@
 import React from 'react';
 import Main from './components/main/Main';
-// import RightSideBar from './components/RightSide/RightSideBar';
+import RightSideBar from './components/RightSide/RightSideBar';
 import Sidebar from './components/sidebar/Sidebar';
 import {Routes, Route} from 'react-router-dom';
 import UserRoute from './components/Routes/UserRoute';
@@ -28,7 +28,7 @@ function App() {
           <Route path="/social/earn" element={<SocialTaskandEarn />} />
           <Route path="/more" element={<More />} />
         </Routes>
-        {/* <RightSideBar /> */}
+        <RightSideBar />
       </div>
     </div>
   );
