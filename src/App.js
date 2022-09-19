@@ -1,6 +1,6 @@
 import React from 'react';
 import Main from './components/main/Main';
-import RightSideBar from './components/RightSide/RightSideBar';
+// import RightSideBar from './components/RightSide/RightSideBar';
 import Sidebar from './components/sidebar/Sidebar';
 import {Routes, Route} from 'react-router-dom';
 import UserRoute from './components/Routes/UserRoute';
@@ -14,25 +14,23 @@ import './index.css';
 
 function App() {
   return (
-    <>
     
-      <div className="container">
-        
-        <div className="row my-md-5 py-md-3">
-          <Sidebar />
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/profile" element={<UserRoute />} />
-            <Route path="/referral" element={<Referrer />} />
-            <Route path="/referral/member" element={<AccToMoney />} />
-            <Route path="/social/advertise" element={<SocialTask />} />
-            <Route path="/social/earn" element={<SocialTaskandEarn />} />
-            <Route path="/more" element={<More />} />
-          </Routes>
-          <RightSideBar />
-        </div>
+    <div className="container">
+      
+      <div className="row my-md-5 py-md-3">
+        <Sidebar />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/profile" element={<UserRoute />} />
+          <Route path="/referral" element={<Referrer />} />
+          <Route path="/referral/member" element={<AccToMoney />} />
+          <Route path="/social/advertise" element={<SocialTask />} />
+          <Route path="/social/earn" element={<SocialTaskandEarn />} />
+          <Route path="/more" element={<More />} />
+        </Routes>
+        {/* <RightSideBar /> */}
       </div>
-    </>
+    </div>
   );
 }
 
