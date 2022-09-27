@@ -1235,7 +1235,8 @@ a:hover {
   background: #eee;
   padding: 0;
   border: none !important;
-  margin: 0
+  margin: 0;
+
 }
 
 ._23p_2N8N5B:after {
@@ -2184,11 +2185,11 @@ a:hover {
   display: flex;
   flex-direction: column;
   background: #fff;
-  overflow-y: scroll
+  /* overflow-y: scroll */
 }
 
 ._2zRk7HyIM2 {
-  margin-bottom: .5rem
+  margin-bottom: .1rem
 }
 
 ._2zRk7HyIM2 .VUrBsBOmL3 {
@@ -2313,12 +2314,12 @@ a:hover {
 
 ._3P_lPbWL-z {
   padding: .5rem 1rem;
-  margin-bottom: .5rem
+  margin-bottom: 0;
 }
 
 ._3J87aHBaCs,
 .ud7QCJoyU6 {
-  display: flex
+  display: flex;
 }
 
 .ud7QCJoyU6 {
@@ -9257,7 +9258,7 @@ button._1KzOfT0-W5 {
 }
 
 ._2_XPuXuhdw {
-  padding: .5rem 1rem
+  /* padding: .5rem 1rem */
 }
 
 ._2_XPuXuhdw a {
@@ -10680,4 +10681,12 @@ label {
 
 .col-space{
   padding: 5px;
+}
+
+.shadow{
+  position: absolute; 
+  transform: translate3d(-113px, 59px, 0px); 
+  top: 0px; 
+  left: 0px; 
+  will-change: transform;
 }

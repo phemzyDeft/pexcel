@@ -1,14 +1,12 @@
 import React from 'react';
-import instagram from '../../assets/instagram.jpg';
-import twitter from '../../assets/twitter.png';
-import youtube from '../../assets/youtube.jpg';
+import { instagram, twitter, youtube,  } from '../../assets';
 import {Link} from 'react-router-dom';
 
 
 const RightSideBar = (props) => {
   return (
-    <div className="col-md-4 col-lg-3 col-xl-3 d-none d-md-block">
-    <div className='' style={{width: "285px", position: "fixed", height: '70%'}}>
+    <div className=".col-md-4 .col-lg-3 col-xl-3 .d-none .d-md-block">
+    <div className='' style={{width: "280px", position: "fixed", height: '70%'}}>
     <div class="_1kMqXwfg5O">
       <div class="_11UHTgcafn">
         <h4>Recent Activities</h4>

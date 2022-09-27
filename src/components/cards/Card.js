@@ -1,12 +1,9 @@
 import React from 'react';
-import social from '../../assets/social.jpg';
-import subscription from '../../assets/networks.png';
-import market from '../../assets/market.png';
-import avatar from '../../assets/user-avatar.png';
+import { avatar,  market, subscription, social} from '../../assets';
 // import { Link } from 'react-router-dom';
 
 
-const Card2 = (props) => {
+const Card = (props) => {
   return (
 <div class="_39Zy4vLNJR mt-2 mb-5 pb-3 mt-lg-2 mb-lg-0 pb-lg-0 px-3 px-lg-2">
   <div class="row .no-gutters">
@@ -102,4 +99,4 @@ const Card2 = (props) => {
   );
 }
 
-export default Card2;
+export default Card;

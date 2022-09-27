@@ -1,6 +1,6 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
-import avatar from '../../assets/user-avatar.png';
+import { avatar } from '../../assets';
 import {Link} from 'react-router-dom';
 
 

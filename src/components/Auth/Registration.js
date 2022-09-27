@@ -1,7 +1,7 @@
 import React from 'react';
 import './Registration.css';
 import {Link} from 'react-router-dom';
-import logo from '../../assets/logo-light.jpg';
+import {logo} from '../../assets';
 
 function Registration(props) {
   return (
@@ -83,7 +83,7 @@ function Registration(props) {
                 </div>
               </div>
               <div class="form-group mb-0 text-center pt-4 col-12">
-                <div class="col-sm-12"><buthrefn class="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">SIGN UP</buthrefn></div>
+                <div class="col-sm-12"><button class="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">SIGN UP</button></div>
               </div>
             </form>
             <div class="row mt-3">

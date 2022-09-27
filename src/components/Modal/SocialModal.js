@@ -1,6 +1,5 @@
 import React from 'react';
-import social from '../../assets/social.jpg';
-import earn from '../../assets/hand.png';
+import { social, earn } from '../../assets';
 import {Link}from 'react-router-dom';
 
 
@@ -22,28 +21,28 @@ const SocialModal = (props) => {
                     <div class="col-6 mb-2">
                       <div class="_238wGi-h_V mr-2">
                         <div class="_1Tka1Kax8q">
-                          <h6>Perform Social Tasks and Earn Daily</h6>
-                        </div>
-                        <div class="ma8FYDNBdm">
-                          <div class="vkCa8AmEEr"><img alt="social-icon" src={earn} /></div>
-                          <p class="f-10">Earn Daily by performing social tasks such as Follow, Like, Comment, Share, Retweet, App Reviews, Whatsapp Post etc.</p>
-                        </div>
-                        <div class="_1y-DPoKFhx">
-                          <Link to='/social/earn'><p><button class="btn btn-outline mb-1" data-bs-dismiss="modal">GET STARTED</button></p></Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 mb-2">
-                      <div class="_238wGi-h_V">
-                        <div class="_1Tka1Kax8q">
-                          <h6>Boost Your Social Portfolio</h6>
+                          <h6 className='text-center'>Blog</h6>
                         </div>
                         <div class="ma8FYDNBdm">
                           <div class="vkCa8AmEEr"><img alt="social-icon" src={social} /></div>
                           <p class="f-10">Get Real Followers, Likes, Comments, Shares, Retweets, App Reviews, Whatsapp Views etc. on your social media.</p>
                         </div>
                         <div class="_1y-DPoKFhx">
-                          <Link to='/social/advertise'><p><button class="btn btn-outline mb-1" data-bs-dismiss="modal">GET STARTED</button></p></Link>
+                          <Link to='/blog'><p><button class="btn btn-outline mb-1" data-bs-dismiss="modal">GET STARTED</button></p></Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 mb-2">
+                      <div class="_238wGi-h_V">
+                        <div class="_1Tka1Kax8q">
+                          <h6 className='text-center'>Referrer</h6>
+                        </div>
+                        <div class="ma8FYDNBdm">
+                          <div class="vkCa8AmEEr"><img alt="social-icon" src={earn} /></div>
+                          <p class="f-10">Earn Daily by performing social tasks such as Follow, Like, Comment, Share, Retweet, App Reviews, Whatsapp Post etc.</p>
+                        </div>
+                        <div class="_1y-DPoKFhx">
+                          <Link to='/referral'><p><button class="btn btn-outline mb-1" data-bs-dismiss="modal">GET STARTED</button></p></Link>
                         </div>
                       </div>
                     </div>

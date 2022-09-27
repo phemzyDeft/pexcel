@@ -3,8 +3,9 @@ import {Link} from 'react-router-dom';
 
 const AirtimeSidebar = (props) => {
   return (
-    <div className="col-lg-3 d-none d-md-none d-lg-block d-flex px-4">
-    <div class="_3abDRYJT3P" style={{background: 'white', width: "260px", position: "fixed", height: '80%'}}>
+    <div className=".col-lg-3 .d-none .d-md-none .d-lg-block .d-flex px-4">
+    <div class="_3abDRYJT3P">
+    {/* <div class="_3abDRYJT3P" style={{background: 'white', width: "260px", position: "fixed", height: '80%'}}> */}
       <div class="E5MFBHsCyR">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb"></ol>

@@ -1,0 +1,26 @@
+
+.button{
+    padding: 5px 7px;
+    font-size: 10px;
+}
+
+.button:nth-child(1){
+    background: rgb(154, 154, 7);
+}
+.button:nth-child(1):hover{
+    background: rgb(65, 96, 2);
+}
+
+.button:nth-child(2){
+    background: blue;
+}
+.button:nth-child(2):hover{
+    background: rgb(14, 14, 128);
+}
+
+.button:nth-child(3){
+    background: rgb(2, 162, 2);
+}
+.button:nth-child(3):hover{
+    background: rgb(3, 85, 3);
+}

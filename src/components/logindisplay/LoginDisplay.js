@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const LoginDisplay = (props) => {
   return (
-    <div class="_3amMSmObol">
+    <div class=".col-lg-6 .col-12 _3amMSmObol">
       <div class="_5ERPmRfOLO d-flex justify-content-between">
         <p>Welcome, user</p>
         <p class="ml-auhref"><Link to="#/logout"><i class="fas fa-power-off"></i> Logout</Link></p>

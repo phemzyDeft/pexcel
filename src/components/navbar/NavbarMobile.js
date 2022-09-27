@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo-light.jpg';
+import { logo } from '../../assets';
 import {Link} from 'react-router-dom';
 
 function NavbarMobile(props) {

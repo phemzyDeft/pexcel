@@ -2,7 +2,7 @@ import React from 'react';
 const Banner = (props) => {
   return (
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active ">
       <div class="_1wbTpsTsPs _2OOFlEI1jS"><img src="https://staticcdn.blivar.com/images/slider-1.jpg" alt=''/></div>
@@ -23,33 +23,6 @@ const Banner = (props) => {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-    // <div className="">
-
-    //   <div class="carousel-item _2OOFlEI1jS">
-    //     <div class="_1hrHQwVWFY">
-    //       <div class="_1wbTpsTsPs "><img src="https://staticcdn.blivar.com/images/banner3.jpg" alt=''/></div>
-    //     </div>
-    //   </div>
-    //   <div class=".carousel-item _2OOFlEI1jS">
-    //     <div class="_1hrHQwVWFY">
-    //       <div class="_1wbTpsTsPs "><img src="https://staticcdn.blivar.com/images/banner3.jpg" alt=''/></div>
-    //     </div>
-    //   </div>
-    //   <div class=".carousel-item _2OOFlEI1jS">
-    //     <div class="_1hrHQwVWFY">
-    //       <div class="_1wbTpsTsPs "><img src="https://staticcdn.blivar.com/images/banner3.jpg" alt=''/></div>
-    //     </div>
-    //   </div>
-
-    //   <ol class="carousel-indicators">
-    //     <li data-target="#AdvertCarousel" data-slide-to="0" class="active"></li>
-    //     <li data-target="#AdvertCarousel" data-slide-to="1" class=""></li>
-    //     <li data-target="#AdvertCarousel" data-slide-to="2" class=""></li>
-    //     <li data-target="#AdvertCarousel" data-slide-to="3" class=""></li>
-    //   </ol>
-
-    // </div>
   );
 }
 
