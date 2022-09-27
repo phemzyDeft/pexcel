@@ -84,7 +84,7 @@ const Login = (props) => {
                             <div>{message ? <p>{message}</p>: null}</div>
 
                             <div class="form-group mb-0 text-center pt-4 col-12">
-                              <div class="col-sm-12"><button class="btn btn-block btn-coloured-heavy" type="submit"><Link to='/logindisplay'>SIGN IN</Link></button></div>
+                                <div class="col-sm-12"><button class="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">SIGN IN</button></div>
                             </div>
 
                         </form>

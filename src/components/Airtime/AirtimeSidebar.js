@@ -15,28 +15,19 @@ const AirtimeSidebar = (props) => {
       <div class="_1oWtj0JrTa">
         <p>All Subcategories</p>
         <div>
-          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>MTN Airtime</span></Link></div>
+          <div class="_2_XPuXuhdw"><Link to="/airtime"><i class="fas fa-list"></i><span>Airtime Subscription</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>Airtel Data</span></Link></div>
+          <div class="_2_XPuXuhdw"><Link to="/data"><i class="fas fa-list"></i><span>Data Subscription</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>GLO Data</span></Link></div>
+          <div class="_2_XPuXuhdw"><Link to="/cable"><i class="fas fa-list"></i><span>Cable Subscription</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>Airtel Airtime</span></Link></div>
+          <div class="_2_XPuXuhdw"><Link to="/electricity"><i class="fas fa-list"></i><span>Electricity</span></Link></div>
         </div>
         <div>
-          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>9Mobile Data</span></Link></div>
-        </div>
-        <div>
-          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>MTN Data</span></Link></div>
-        </div>
-        <div>
-          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>GLO Airtime</span></Link></div>
-        </div>
-        <div>
-          <div class="_2_XPuXuhdw"><Link to="#"><i class="fas fa-list"></i><span>9Mobile Airtime</span></Link></div>
+          <div class="_2_XPuXuhdw"><Link to="/airtime-to-cash"><i class="fas fa-list"></i><span>AirtimeToCash</span></Link></div>
         </div>
       </div>
       <div class="_2pTwXAVqNQ">

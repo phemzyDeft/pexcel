@@ -5,7 +5,7 @@ import AirtimeSidebar from '../Airtime/AirtimeSidebar';
 // import subscription from '../../assets/networks.png';
 // import AirtimeSidebar from '../Airtime/AirtimeSidebar';
 // import {Link} from 'react-router-dom';
-import { apple_play, google_play } from '../../assets';
+import { apple_play, earn, google_play, hand, market, subscription } from '../../assets';
 
 const Sidebar = (props) => {
   return (
@@ -21,7 +21,7 @@ const Sidebar = (props) => {
                   <div class="_3J87aHBaCs">
                     <div class="ud7QCJoyU6">
                       <div class="_1hrHQwVWFY">
-                        <div class="_1wbTpsTsPs align-items-start" ><img src="./static/media/hand.03259ee5.png" alt=''/></div>
+                        <div class="_1wbTpsTsPs align-items-start" ><img src={earn} alt=''/></div>
                       </div>
                     </div>
                     <div class="_1k1KIlYn7k">
@@ -36,7 +36,7 @@ const Sidebar = (props) => {
                   <div class="_3J87aHBaCs">
                     <div class="ud7QCJoyU6">
                       <div class="_1hrHQwVWFY">
-                        <div class="_1wbTpsTsPs align-items-start" ><img src="./static/media/hand.03259ee5.png" alt=''/></div>
+                        <div class="_1wbTpsTsPs align-items-start" ><img src={market} alt=''/></div>
                       </div>
                     </div>
                     <div class="_1k1KIlYn7k">
@@ -51,7 +51,7 @@ const Sidebar = (props) => {
                   <div class="_3J87aHBaCs">
                     <div class="ud7QCJoyU6">
                       <div class="_1hrHQwVWFY">
-                        <div class="_1wbTpsTsPs align-items-start" ><img src="./static/media/hand.03259ee5.png" alt=''/></div>
+                        <div class="_1wbTpsTsPs align-items-start" ><img src={subscription} alt=''/></div>
                       </div>
                     </div>
                     <div class="_1k1KIlYn7k">
@@ -66,7 +66,7 @@ const Sidebar = (props) => {
                   <div class="_3J87aHBaCs">
                     <div class="ud7QCJoyU6">
                       <div class="_1hrHQwVWFY">
-                        <div class="_1wbTpsTsPs align-items-start" ><img src="./static/media/hand.03259ee5.png" alt=''/></div>
+                        <div class="_1wbTpsTsPs align-items-start" ><img src={hand} alt=''/></div>
                       </div>
                     </div>
                     <div class="_1k1KIlYn7k">
