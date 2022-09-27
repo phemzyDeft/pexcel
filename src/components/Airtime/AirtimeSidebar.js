@@ -10,10 +10,9 @@ const AirtimeSidebar = (props) => {
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb"></ol>
         </nav>
-        <h5>Airtime and Data</h5>
+        <h5>Services</h5>
       </div>
       <div class="_1oWtj0JrTa">
-        <p>All Subcategories</p>
         <div>
           <div class="_2_XPuXuhdw"><Link to="/airtime"><i class="fas fa-list"></i><span>Airtime Subscription</span></Link></div>
         </div>
