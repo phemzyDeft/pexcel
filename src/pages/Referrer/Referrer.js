@@ -7,10 +7,6 @@ function Referrer(props) {
   <h4 class="mb-0">Refer and Earn Big</h4>
 </div>
 <div class="offer-main-content px-3 pb-5 pb-lg-0">
-  <div class="alert alert-success">
-    We are currently running a promo that gives additional Cashback and Welcome
-    Bonus of ₦200 href new members. This offer lasts only till 30th September
-  </div>
   <p>
     As a member on Pexcel, you can earn two types of Referral Bonuses which
     include:

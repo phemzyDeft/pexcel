@@ -755,12 +755,12 @@ a:hover {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   box-shadow: none;
-  min-height: 50px;
+  /* min-height: 50px; */
   padding: 6px 0;
   margin: 0;
   font-size: 14px;
   flex-grow: 1;
-  background-color: #fff
+  background-color: #fff;
 }
 
 ._1StmaddT83[readonly] {
@@ -772,7 +772,7 @@ a:hover {
 }
 
 ._1echFS5NZD:focus {
-  box-shadow: none !important
+  box-shadow: none !important;
 }
 
 ._32iYqntMuD {
@@ -840,8 +840,8 @@ a:hover {
 }
 
 ._3ApY6Q53at {
-  margin-top: 1rem;
-  width: 100%;
+  /* margin-top: 1rem; */
+  width: 70%;
 }
 
 .j1XbBaNJI1 {

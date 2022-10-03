@@ -33,37 +33,19 @@ function More(props) {
                 <p class="_3_CZR7x30G"><Link to="/">View Profile <span class="fa fa-caret-right"></span></Link></p>
               </div>
             </div>
-            <Link class="_2MfGHS9XGN" to="#/social/orders">
-              <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fa fa-list"></span> My Orders</p>
-                <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
-              </div>
-            </Link>
-            <Link class="_2MfGHS9XGN" to="#/funding">
+            <Link class="_2MfGHS9XGN" to="/fundwallet">
               <div class="_3TbrcznAIT d-flex justify-content-between">
                 <p><span class="fa fa-wallet"></span> Fund Wallet</p>
                 <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
               </div>
             </Link>
-            <Link class="_2MfGHS9XGN" to="#/withdraw">
-              <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fa fa-sign-out"></span> Place Withdrawals</p>
-                <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
-              </div>
-            </Link>
-            <Link class="_2MfGHS9XGN" to="#/transactions/shopping">
+            <Link class="_2MfGHS9XGN" to="/">
               <div class="_3TbrcznAIT d-flex justify-content-between">
                 <p><span class="fa fa-list"></span> Transaction History</p>
                 <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
               </div>
             </Link>
-            <Link class="_2MfGHS9XGN" to="#/chats">
-              <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fa fa-comment-alt-dots"></span> My Chats</p>
-                <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
-              </div>
-            </Link>
-            <Link class="_2MfGHS9XGN" to="#/notifications">
+            <Link class="_2MfGHS9XGN" to="/">
               <div class="_3TbrcznAIT d-flex justify-content-between">
                 <p><span class="fa fa-bell"></span> My Notifications</p>
                 <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
@@ -75,51 +57,15 @@ function More(props) {
                 <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
               </div>
             </Link>
-            <Link class="_2MfGHS9XGN" to="#/settings/password">
+            <Link class="_2MfGHS9XGN" to="/referral">
               <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fa fa-lock"></span> Update Password</p>
+                <p><span class="fa fa-user"></span> Refer Friends</p>
                 <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
               </div>
             </Link>
-            <Link class="_2MfGHS9XGN" to="#/settings/location">
+            <Link to="/faq" class="_2MfGHS9XGN">
               <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fa fa-map-marker-alt"></span> Update Location</p>
-                <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
-              </div>
-            </Link>
-            <Link class="_2MfGHS9XGN" to="#/settings/bank">
-              <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fa fa-check-circle"></span> Update Bank Details</p>
-                <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
-              </div>
-            </Link>
-            <Link to="#/settings/support" class="_2MfGHS9XGN">
-              <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fab fa-facebook"></span> Chat With Support</p>
-                <p class="ml-auto"><span class="fab fa-facebook-messenger fa-2x text-primary"></span></p>
-              </div>
-            </Link>
-            <Link to="#/settings/privacy" class="_2MfGHS9XGN">
-              <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fa fa-user-secret"></span> Privacy Policy</p>
-                <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
-              </div>
-            </Link>
-            <Link to="#/settings/about" class="_2MfGHS9XGN">
-              <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fa fa-info-circle"></span> About</p>
-                <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
-              </div>
-            </Link>
-            <Link to="#/settings/terms-of-use" class="_2MfGHS9XGN">
-              <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fa fa-info-circle"></span> Terms of Use</p>
-                <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
-              </div>
-            </Link>
-            <Link class="_2MfGHS9XGN" to="/">
-              <div class="_3TbrcznAIT d-flex justify-content-between">
-                <p><span class="fa fa-power-off"></span> Logout</p>
+                <p><span class="fa fa-user-secret"></span> FAQ</p>
                 <p class="ml-auto"><span class="fa fa-chevron-right"></span></p>
               </div>
             </Link>

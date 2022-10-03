@@ -16,7 +16,9 @@ import AirtimeToCash from './pages/AirtimeToCash/AirtimeToCash';
 import BlogDisplay from './pages/Blog/BlogDisplay';
 import Home from './pages/Home/Home';
 import Layout from './Layout';
-// import Navbar from './components/navbar/Navbar';
+import RegisterRoute from './components/Routes/RegisterRoute';
+import LoginRoute from './components/Routes/LoginRoute';
+import ForgetPassword from './components/Auth/ForgetPassword';
 
 
 function App() {
@@ -39,6 +41,7 @@ function App() {
             <Route path="/referral" element={<Referrer />} />
             <Route path="/profile" element={<UserRoute />} />
             <Route path="/more" element={<More />} />
+            <Route path="/fundwallet" element={<LoginDisplay />} />            
           </Route>
 
           <Route element={<PrivateRoutes />}>
@@ -50,7 +53,14 @@ function App() {
             <Route path='/airtime-to-cash' element={<AirtimeToCash />} />
             <Route path='/logindisplay' element={<LoginDisplay />} />
           </Route>
+          
           <Route path="/" index element={<Home />} />
+          <Route path="/register" element={<RegisterRoute />} />
+          <Route path="/login" element={<LoginRoute />} />
+          <Route path="*" element={<Home />}/>
+          <Route path="/forgotpassword" element={<ForgetPassword />} />
+
+
           {/* <Route path="/referral/member" element={<AccToMoney />} /> */}
 
         </Routes>
