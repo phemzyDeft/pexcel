@@ -25,9 +25,9 @@ const AirtimeSidebar = (props) => {
         <div>
           <div class="_2_XPuXuhdw"><Link to="/electricity"><i class="fas fa-list"></i><span>Electricity</span></Link></div>
         </div>
-        <div>
+        {/* <div>
           <div class="_2_XPuXuhdw"><Link to="/airtime-to-cash"><i class="fas fa-list"></i><span>AirtimeToCash</span></Link></div>
-        </div>
+        </div> */}
       </div>
       <div class="_2pTwXAVqNQ">
         <div class="_1v_ayYi5wJ">

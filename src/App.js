@@ -36,7 +36,7 @@ function App() {
             <Route path='/cable' element={<Cable />} />
             <Route path='/data' element={<Data />} />
             <Route path='/electricity' element={<Electricity />} />
-            <Route path='/airtime-to-cash' element={<AirtimeToCash />} />
+            {/* <Route path='/airtime-to-cash' element={<AirtimeToCash />} /> */}
             <Route path='/logindisplay' element={<LoginDisplay />} />
             <Route path="/referral" element={<Referrer />} />
             <Route path="/profile" element={<UserRoute />} />
@@ -50,7 +50,7 @@ function App() {
             <Route path='/airtime' element={<Airtime />} />
             <Route path='/data' element={<Data />} />
             <Route path='/electricity' element={<Electricity />} />
-            <Route path='/airtime-to-cash' element={<AirtimeToCash />} />
+            {/* <Route path='/airtime-to-cash' element={<AirtimeToCash />} /> */}
             <Route path='/logindisplay' element={<LoginDisplay />} />
           </Route>
           
