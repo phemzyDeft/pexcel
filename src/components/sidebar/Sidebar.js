@@ -84,7 +84,8 @@ const Sidebar = (props) => {
           </div>
         </div>
       </div>
-        <div class="_3G7L5Lphh_"><a href="https://play.google.com/store/apps/details?id=com.cheapestdatabundles.pexcel" class="mr-1" target='_blank'><img src={google_play} alt="google-play-store" /></a><a href="https://play.google.com/store/apps/details?id=com.cheapestdatabundles.pexcel" class="h-100" target='_blank'><img src={apple_play} alt="apple-play-store" /></a></div>
+        <div class="_3G7L5Lphh_"><a href="https://play.google.com/store/apps/details?id=com.cheapestdatabundles.pexcel" class="mr-1" target='_blank'><img src={google_play} alt="google-play-store" /></a>
+        {/* <a href="https://play.google.com/store/apps/details?id=com.cheapestdatabundles.pexcel" class="h-100" target='_blank'><img src={apple_play} alt="apple-play-store" /></a>*/}</div>
     </div>
   </div>
   );

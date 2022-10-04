@@ -18,7 +18,7 @@ import Home from './pages/Home/Home';
 import Layout from './Layout';
 import RegisterRoute from './components/Routes/RegisterRoute';
 import LoginRoute from './components/Routes/LoginRoute';
-import ForgetPassword from './components/Auth/ForgetPassword';
+import ForgotpasswordRoute from './components/Routes/ForgotpasswordRoute';
 
 
 function App() {
@@ -41,7 +41,10 @@ function App() {
             <Route path="/referral" element={<Referrer />} />
             <Route path="/profile" element={<UserRoute />} />
             <Route path="/more" element={<More />} />
-            <Route path="/fundwallet" element={<LoginDisplay />} />            
+            <Route path="/fundwallet" element={<LoginDisplay />} />
+            <Route path="/register" element={<RegisterRoute />} />
+            <Route path="/login" element={<LoginRoute />} />         
+            <Route path="/forgotpassword" element={<ForgotpasswordRoute />} />
           </Route>
 
           <Route element={<PrivateRoutes />}>
@@ -50,15 +53,16 @@ function App() {
             <Route path='/airtime' element={<Airtime />} />
             <Route path='/data' element={<Data />} />
             <Route path='/electricity' element={<Electricity />} />
+
             {/* <Route path='/airtime-to-cash' element={<AirtimeToCash />} /> */}
             <Route path='/logindisplay' element={<LoginDisplay />} />
           </Route>
           
           <Route path="/" index element={<Home />} />
-          <Route path="/register" element={<RegisterRoute />} />
-          <Route path="/login" element={<LoginRoute />} />
+          {/* <Route path="/register" element={<RegisterRoute />} /> */}
+          {/* <Route path="/login" element={<LoginRoute />} /> */}
           <Route path="*" element={<Home />}/>
-          <Route path="/forgotpassword" element={<ForgetPassword />} />
+          {/* <Route path="/forgotpassword" element={<ForgetPassword />} /> */}
 
 
           {/* <Route path="/referral/member" element={<AccToMoney />} /> */}

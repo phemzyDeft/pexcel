@@ -5,13 +5,13 @@ import {logo} from '../../assets';
 
 function Registration(props) {
   return (
-    <div class="account-pages mt-5 mb-5">
-  <div class="container pt-5">
+    <div class="account-pages .mt-5 .mb-5">
+  <div class=".container .pt-5">
     <div class="row justify-content-center">
-      <div class="col-md-7">
+      <div class=".col-md-7">
         <div class="card bg-pattern">
           <div class="card-body p-4">
-            <div class="text-center w-75 m-auhref">
+            <div class="text-center w-75 m-auto">
               <a href="/">
               <span><img src={logo} alt="Logo" height="50px" /></span>
               </a>

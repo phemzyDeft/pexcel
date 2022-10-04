@@ -4,7 +4,9 @@ import Registration from '../Auth/Registration';
 function RegisterRoute(props) {
   return (
     <>
-      <Registration />
+      <div className='col-12 col-lg-6'>
+        <Registration />
+      </div>
     </>
   );
 }

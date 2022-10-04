@@ -36,10 +36,10 @@ const Login = (props) => {
     }
 
   return (
-<div class="account-pages mt-5 mb-5 pt-5">
-    <div class="container">
+<div class="account-pages .mt-5 .mb-5 .pt-5">
+    <div class=".container">
         <div class="row justify-content-center">
-            <div class="col-md-5">
+            <div class=".col-md-5">
                 <div class="card bg-pattern">
 
                     <div class="card-body p-4">

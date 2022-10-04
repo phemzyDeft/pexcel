@@ -4,7 +4,9 @@ import Login from '../Auth/Login';
 const LoginRoute = (props) => {
   return (
     <>
-      <Login />
+      <div className='col-12 col-lg-6'>
+        <Login />
+      </div>
     </>
   );
 }
