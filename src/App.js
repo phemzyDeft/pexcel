@@ -12,7 +12,7 @@ import LoginDisplay from './components/logindisplay/LoginDisplay';
 import Cable from './pages/subscription/Cable/Cable';
 import Electricity from './pages/subscription/Electricity/Electricity';
 import Data from './pages/subscription/Data/Data';
-import AirtimeToCash from './pages/AirtimeToCash/AirtimeToCash';
+// import AirtimeToCash from './pages/AirtimeToCash/AirtimeToCash';
 import BlogDisplay from './pages/Blog/BlogDisplay';
 import Home from './pages/Home/Home';
 import Layout from './Layout';

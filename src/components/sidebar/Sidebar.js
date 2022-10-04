@@ -5,7 +5,7 @@ import AirtimeSidebar from '../Airtime/AirtimeSidebar';
 // import subscription from '../../assets/networks.png';
 // import AirtimeSidebar from '../Airtime/AirtimeSidebar';
 // import {Link} from 'react-router-dom';
-import { apple_play, earn, google_play, hand, market, subscription } from '../../assets';
+import { earn, google_play, hand, market, subscription } from '../../assets';
 
 const Sidebar = (props) => {
   return (
@@ -84,7 +84,7 @@ const Sidebar = (props) => {
           </div>
         </div>
       </div>
-        <div class="_3G7L5Lphh_"><a href="https://play.google.com/store/apps/details?id=com.cheapestdatabundles.pexcel" class="mr-1" target='_blank'><img src={google_play} alt="google-play-store" /></a>
+        <div class="_3G7L5Lphh_"><a href="https://play.google.com/store/apps/details?id=com.cheapestdatabundles.pexcel" class="mr-1" target='_blank' rel="noopener noreferrer"><img src={google_play} alt="google-play-store" /></a>
         {/* <a href="https://play.google.com/store/apps/details?id=com.cheapestdatabundles.pexcel" class="h-100" target='_blank'><img src={apple_play} alt="apple-play-store" /></a>*/}</div>
     </div>
   </div>
