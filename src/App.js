@@ -19,6 +19,7 @@ import Layout from './Layout';
 import RegisterRoute from './components/Routes/RegisterRoute';
 import LoginRoute from './components/Routes/LoginRoute';
 import ForgotpasswordRoute from './components/Routes/ForgotpasswordRoute';
+import Faq from './pages/Faqsection/Faqpagesection';
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
             <Route path="/register" element={<RegisterRoute />} />
             <Route path="/login" element={<LoginRoute />} />         
             <Route path="/forgotpassword" element={<ForgotpasswordRoute />} />
+            <Route path="/faq" element={<Faq />} />
           </Route>
 
           <Route element={<PrivateRoutes />}>

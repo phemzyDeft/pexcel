@@ -1,0 +1,43 @@
+
+.faq__section{
+  background: white;
+  padding: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.accordion__items--title{
+  background:white;
+  box-shadow: 0 2px 22px rgba(0, 0, 0, .1);
+  padding: 1rem 1rem 1rem 2rem;
+  font-size: .8rem;
+  border-radius: .5rem;
+}
+
+.faq__accordion--btn .accordion__items--button__icon {
+  right: 1.5rem;
+  pointer-events: none
+}
+
+
+.face__step {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem
+}
+
+.face__step:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0
+}
+
+.face__step--title {
+  font-weight: 400
+}
+
+.accordion__items{
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.accordion__items--body__desc{
+  margin-left: 1.5rem;
+}
