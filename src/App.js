@@ -20,7 +20,7 @@ import RegisterRoute from './components/Routes/RegisterRoute';
 import LoginRoute from './components/Routes/LoginRoute';
 import ForgotpasswordRoute from './components/Routes/ForgotpasswordRoute';
 import Faq from './pages/Faqsection/Faqpagesection';
-
+import SidebarMobile from './components/navbar/SidebarMobile';
 
 function App() {
   return (
@@ -32,6 +32,7 @@ function App() {
         <Routes>
           
           <Route element={<Layout />}>
+            <Route path='/' element={<Home />}/>
             <Route path='/airtime' element={<Airtime />}/>
             <Route path="/blog" element={<BlogDisplay />} />
             <Route path='/cable' element={<Cable />} />
@@ -48,6 +49,7 @@ function App() {
             <Route path="/forgotpassword" element={<ForgotpasswordRoute />} />
             <Route path="/faq" element={<Faq />} />
           </Route>
+            <Route path="/menu" element={<SidebarMobile />} />
 
           <Route element={<PrivateRoutes />}>
             <Route path="/more" element={<More />} />
@@ -60,15 +62,11 @@ function App() {
             <Route path='/logindisplay' element={<LoginDisplay />} />
           </Route>
           
-          <Route path="/" index element={<Home />} />
+          {/* <Route path="/" index element={<Home />} /> */}
           {/* <Route path="/register" element={<RegisterRoute />} /> */}
           {/* <Route path="/login" element={<LoginRoute />} /> */}
-          <Route path="*" element={<Home />}/>
+          {/* <Route path="*" element={<Home />}/> */}
           {/* <Route path="/forgotpassword" element={<ForgetPassword />} /> */}
-
-
-          {/* <Route path="/referral/member" element={<AccToMoney />} /> */}
-
         </Routes>
       </div>
     </div>

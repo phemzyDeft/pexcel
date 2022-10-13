@@ -29,7 +29,7 @@ const AirtimeSidebar = (props) => {
           <div class="_2_XPuXuhdw"><Link to="/airtime-to-cash"><i class="fas fa-list"></i><span>AirtimeToCash</span></Link></div>
         </div> */}
       </div>
-      <div class="_2pTwXAVqNQ">
+      {/* <div class="_2pTwXAVqNQ">
         <div class="_1v_ayYi5wJ">
           <p>Sort By:</p>
           <select class="form-control cushrefm-select">
@@ -41,7 +41,7 @@ const AirtimeSidebar = (props) => {
             <option value="What You Like">What You Like</option>
           </select>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
 

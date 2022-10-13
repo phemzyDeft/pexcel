@@ -7,7 +7,7 @@ function Layout(props) {
   return (
     <div className='container'>
       <div className='row'>
-        <div className='col-lg-3 px-0 d-none d-lg-block'>
+        <div className='col-lg-3 px-0 d-lg-block d-none'>
           <Sidebar/>
         </div>
           <Outlet/>

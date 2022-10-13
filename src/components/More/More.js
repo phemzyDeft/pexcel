@@ -10,7 +10,7 @@ function More(props) {
   const navigate = useNavigate();
 
   return (
-<div class="pr-md-0 col-sm-8 col-lg-6">
+<div class="pr-md-0 col-sm-8 col-lg-6 px-0">
   <div class="_3wYllazvID">
     <div class="_1jlMcXs7_l">
       <div class="_3RyIhJP6hH">

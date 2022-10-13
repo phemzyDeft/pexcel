@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import { logo } from '../../assets';
@@ -8,28 +9,19 @@ const Login = (props) => {
 
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
-    const [message, setMessage] = useState("")
+    // const [message, setMessage] = useState("")
 
     let handleSubmit = async (e) => {
         e.preventDefault();
 
+        const baseURL = "http://bills9ja.herokuapp.com/login/";
+
         try {
-            let data = await fetch('https://httpbin.org/post', {
-                method: 'POST',
-                body: JSON.stringify({
-                    username: username,
-                    password: password
-                }),
-            });
-            let response = await data.json();
-            if (response.status === 200){
-                setUsername("");
-                setPassword("");
-                setMessage('user created successfully!')
-            }
-            else{
-                setMessage('there was an error when rendering this data')
-            }
+            let response = await axios.post(baseURL, {
+                username, password
+            })
+            console.log(response.data)
+            console.log(response.status)
         } catch (error) {
             console.log(error)
         }
@@ -81,7 +73,7 @@ const Login = (props) => {
                                 </div>
                             </div>
 
-                            <div>{message ? <p>{message}</p>: null}</div>
+                            {/* <div>{message ? <p>{message}</p>: null}</div> */}
 
                             <div class="form-group mb-0 text-center pt-4 col-12">
                                 <div class="col-sm-12"><button class="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">SIGN IN</button></div>

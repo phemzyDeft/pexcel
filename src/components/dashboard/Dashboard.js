@@ -26,7 +26,7 @@ const Dashboard = (props) => {
     </div>
     <div class="pg410G45aJ">
       <div class="_2laqypk8JG">
-        <p>Please enter the amount you want href fund your wallet with.</p>
+        <p>Please enter the amount you want to fund your wallet with.</p>
       </div>
       <form auhrefcomplete="off">
         <div class="form-row d-flex justify-content-between align-item-between">

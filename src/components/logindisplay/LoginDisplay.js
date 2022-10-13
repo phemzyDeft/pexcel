@@ -4,7 +4,7 @@ import Card from '../cards/Card';
 
 const LoginDisplay = (props) => {
   return (
-    <div className='col-lg-6 col-12'>
+    <div className='col-lg-6 col-12 px-0'>
     <div class="_3amMSmObol">
       <div class="_5ERPmRfOLO d-flex justify-content-between">
         <p>Welcome, user</p>
@@ -53,9 +53,9 @@ const LoginDisplay = (props) => {
         </div>
       </div>
     </div>
-      <div className='mt-1'>
-        <Card />
-      </div>
+    <div className='mt-1'>
+      <Card />
+    </div>
     </div>
   );
 }

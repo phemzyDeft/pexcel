@@ -3,7 +3,8 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  background: #f0f0f0
+  background: #f0f0f0;  
+  padding: 0;
 }
 
 *,
@@ -2189,7 +2190,7 @@ a:hover {
 }
 
 ._2zRk7HyIM2 {
-  margin-bottom: .1rem
+  margin-bottom: .1rem;
 }
 
 ._2zRk7HyIM2 .VUrBsBOmL3 {
@@ -2434,7 +2435,7 @@ a:hover {
 }
 
 ._21chLI4xNG {
-  overflow-y: scroll
+  overflow-y: scroll;
 }
 
 ._3xsi_ZxW4W {
