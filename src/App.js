@@ -3,7 +3,6 @@ import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import UserRoute from './components/Routes/UserRoute';
 import Referrer from './pages/Referrer/Referrer';
-// import AccToMoney from './pages/Referrer/AccToMoney';
 import More from './components/More/More';
 import './index.css';
 import Airtime from './pages/subscription/Airtime/Airtime';
@@ -38,7 +37,6 @@ function App() {
             <Route path='/cable' element={<Cable />} />
             <Route path='/data' element={<Data />} />
             <Route path='/electricity' element={<Electricity />} />
-            {/* <Route path='/airtime-to-cash' element={<AirtimeToCash />} /> */}
             <Route path='/logindisplay' element={<LoginDisplay />} />
             <Route path="/referral" element={<Referrer />} />
             <Route path="/profile" element={<UserRoute />} />
@@ -61,12 +59,6 @@ function App() {
             {/* <Route path='/airtime-to-cash' element={<AirtimeToCash />} /> */}
             <Route path='/logindisplay' element={<LoginDisplay />} />
           </Route>
-          
-          {/* <Route path="/" index element={<Home />} /> */}
-          {/* <Route path="/register" element={<RegisterRoute />} /> */}
-          {/* <Route path="/login" element={<LoginRoute />} /> */}
-          {/* <Route path="*" element={<Home />}/> */}
-          {/* <Route path="/forgotpassword" element={<ForgetPassword />} /> */}
         </Routes>
       </div>
     </div>
