@@ -8,7 +8,7 @@ function SidebarMobile(props) {
   return (
     <div className="container">
       <div className="row">
-        <div className="mb-5 pb-5 col-12 d-sm-block col-sm-12 d-lg-none d-flex align-item-center justify-content-center">
+        <div className="mb-5 pb-5 col-12 d-sm-block col-sm-12 d-lg-none d-flex align-item-center justify-content-center" style={{overflowY: "scroll"}}>
         <div className="_21chLI4xNG bg-white" style={{position: "fixed", height: '90%'}}>
           <div className="_3QvZFAvtpk">
             <div>
