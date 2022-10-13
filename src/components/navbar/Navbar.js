@@ -21,7 +21,7 @@ function Navbar(props) {
                     <div class="col-sm-12">
                       <div class="_1KmZqIJHGZ">
                         <div class="hUKiLuwZZD input-group">
-                          <input type="text" class="form-control" placeholder="Search Products, Brands and Categories" />
+                          <input type="text" class="form-control" placeholder="Airtime, Data, Cable, Electricity" />
                           <div class="input-group-append"><button class="" type="submit"><span class="fas fa-search"></span></button></div>
                         </div>
                       </div>
