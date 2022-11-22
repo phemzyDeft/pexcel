@@ -20,6 +20,7 @@ import LoginRoute from './components/Routes/LoginRoute';
 import ForgotpasswordRoute from './components/Routes/ForgotpasswordRoute';
 import Faq from './pages/Faqsection/Faqpagesection';
 import SidebarMobile from './components/navbar/SidebarMobile';
+import RightSideBar from './components/RightSide/RightSideBar';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             <Route path="/faq" element={<Faq />} />
           </Route>
             <Route path="/menu" element={<SidebarMobile />} />
+            <Route path="/activities" element={<RightSideBar />} />
 
           <Route element={<PrivateRoutes />}>
             <Route path="/more" element={<More />} />

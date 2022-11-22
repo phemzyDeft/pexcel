@@ -24,3 +24,8 @@ export const social = require('./img/social.jpg')
 export const market = require('./img/market.png')
 export const earn = require('./img/hand.png')
 
+//banner img
+export const banner1 = require('./img/banner1.jpg')
+export const banner2 = require('./img/banner2.jpg')
+export const banner3 = require('./img/banner3.png')
+export const banner4 = require('./img/banner4.jpg')

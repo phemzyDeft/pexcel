@@ -38,7 +38,16 @@ function NavFixButttom(props) {
             </div>
           </Link>
           </div>
-        </div>
+        </div>        
+        <div className="_37UqOYFzay">
+          <div className="_2ci2lv2Zbt">
+            <Link to="/activities">
+              <div className="_37uyQdCwuU">
+              <i class="fa-solid fa-caret-down" style={{fontSize: "20px"}}></i>                <p>Activities</p>
+              </div>
+            </Link>
+          </div>
+        </div>        
         <div className="_37UqOYFzay">
           <div className="_2ci2lv2Zbt">
             <Link to="/more">

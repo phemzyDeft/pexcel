@@ -4,13 +4,13 @@ import {Link} from 'react-router-dom';
 
 
 const RightSideBar = (props) => {
-  return (
+  return (  
     <div className=".col-md-4 .col-lg-3 col-xl-3 .d-none .d-md-block">
     <div className='' style={{width: "280px", position: "fixed", height: '70%'}}>
     <div class="_1kMqXwfg5O">
       <div class="_11UHTgcafn">
         <h4>Recent Activities</h4>
-        <p>See what people are doing on Hawkit</p>
+        <p>See what people are doing on Pexcelservices</p>
       </div>
       <div class="_3Y_reKNrY7">
         <div id="showActivities" class="_2e24fyrGqP">

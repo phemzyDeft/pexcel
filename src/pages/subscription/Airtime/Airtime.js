@@ -43,7 +43,6 @@ const Airtime = (props) => {
   <div> 
   </div>
   <form method="POST">
-    <input type="hidden" name="csrfmiddlewaretoken" value="NJrnZLR1ppaT4rbrcuk63mmqceBttTnDk6SPUDjoSBK78CJTbbzmhOp6SeabTYfA" />
     <div class="form-group mb-3 mt-3">
 
       <label style={{color: "green"}}>Select Network</label>
