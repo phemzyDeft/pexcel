@@ -5,31 +5,6 @@ import {logo} from '../../assets';
 import axios from 'axios';
 
 function Registration(props) {
-
-  const [firstName, setFirstName] = useState('');  
-  const [lastName, setLastName] = useState('');  
-  const [email, setEmail] = useState('');  
-  const [username, setUsername] = useState('');  
-  const [phoneNo, setPhoneNo] = useState('');  
-  const [password, setPassword] = useState('');  
-  const [confirmPassword, setconfirmPassword] = useState('');
-
-
-  const navigate = useNavigate()
-  
-  const handleSubmit = async(e) =>{
-    e.preventDefault();
-
-
-    const baseURL = "http://bills9ja.herokuapp.com/auth/token/"
-
-    await axios.post(baseURL, {
-      firstName, lastName, email, username, phoneNo, password, confirmPassword
-    })
-
-    navigate('/login')
-  }
-
   return (
     <div class="account-pages .mt-5 .mb-5">
   <div class=".container .pt-5">

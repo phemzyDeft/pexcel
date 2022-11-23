@@ -6,27 +6,6 @@ import './auth.css';
 
 
 const Login = (props) => {
-
-    const [username, setUsername] = useState("")
-    const [password, setPassword] = useState("")
-    // const [message, setMessage] = useState("")
-
-    let handleSubmit = async (e) => {
-        e.preventDefault();
-
-        const baseURL = "http://bills9ja.herokuapp.com/login/";
-
-        try {
-            let response = await axios.post(baseURL, {
-                username, password
-            })
-            console.log(response.data)
-            console.log(response.status)
-        } catch (error) {
-            console.log(error)
-        }
-    }
-
   return (
 <div class="account-pages .mt-5 .mb-5 .pt-5">
     <div class=".container">
