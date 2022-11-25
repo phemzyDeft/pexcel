@@ -1,5 +1,5 @@
-import axios from 'axios';
-import React, { useState } from 'react';
+// import axios from 'axios';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import { logo } from '../../assets';
 import './auth.css';
@@ -34,20 +34,20 @@ const Login = (props) => {
                         </div>   
                         {/*-- End Display error and messages */}                                                                 
                         
-                        <form onSubmit={handleSubmit} method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="mesV4IdkTQXsuSm79ioQMoBuB6h1gAi6h6pYnO498sLUUl5puxhGaG6FgfvwXjeu" />
+                        <form method="POST"><input type="hidden" />
 
                             <div class="row">
                                 <div class="col-md-12 pt-3">
                                     <div class="form-group">
                                         <label for="id_username">Username</label>
-                                        <input onChange={(e) => setUsername(e.target.value)} type="text" name={username} autofocus="" placeholder="Enter username here" class="form-control" required="" id="id_username" />
+                                        <input type="text" autofocus="" placeholder="Enter username here" class="form-control" required="" id="id_username" />
                                     </div>
                                 </div>
 
                                 <div class="col-md-12 pt-3">
                                     <div class="form-group">
                                         <label for="id_password">Password</label>
-                                        <input onChange={(e) => setPassword(e.target.value)} type="password" name={password} placeholder="Enter password here" class="form-control" required="" id="id_password" />
+                                        <input type="password" placeholder="Enter password here" class="form-control" required="" id="id_password" />
                                     </div>
                                 </div>
                             </div>

@@ -15,7 +15,7 @@ import Data from './pages/subscription/Data/Data';
 import BlogDisplay from './pages/Blog/BlogDisplay';
 import Home from './pages/Home/Home';
 import Layout from './Layout';
-import RegisterRoute from './components/Routes/RegisterRoute';
+import RegisterRoute   from './components/Routes/RegisterRoute';
 import LoginRoute from './components/Routes/LoginRoute';
 import ForgotpasswordRoute from './components/Routes/ForgotpasswordRoute';
 import Faq from './pages/Faqsection/Faqpagesection';

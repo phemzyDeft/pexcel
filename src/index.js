@@ -21,9 +21,7 @@ root.render(
 
     <NavFixButttom />
 
-    <React.StrictMode>
       <App />
-    </React.StrictMode>
   </BrowserRouter>
 
   </>
