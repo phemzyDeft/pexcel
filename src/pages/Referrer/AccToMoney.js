@@ -3,13 +3,13 @@ import React from 'react';
 
 function AccToMoney(props) {
   return (
-<div class="pr-md-0 col-md-8 col-lg-6">
-  <div class="_3wYllazvID">
-    <div class="_1jlMcXs7_l">
-      <div class="_3RyIhJP6hH">
-        <div class="_3V44262KM4 ">
+<div className="pr-md-0 col-md-8 col-lg-6">
+  <div className="_3wYllazvID">
+    <div className="_1jlMcXs7_l">
+      <div className="_3RyIhJP6hH">
+        <div className="_3V44262KM4 ">
           <div>
-            {/* <!-- <div class="offer-heading bg-dark text-white px-3 py-2 mb-3">
+            {/* <!-- <div className="offer-heading bg-dark text-white px-3 py-2 mb-3">
               <p>The Most Unbelievable Offer Ever!</p>
               <h5>
                 If You Activate Your Membership with ₦1,000 and you don't make atleast your
@@ -18,19 +18,19 @@ function AccToMoney(props) {
                 Guaranteed!
               </h5>
               </div> --> */}
-            <div class="offer-content-heading p-3 text-center">
-              <p class="f-10">Become a Member Today</p>
-              <h4 class="mb-0">
+            <div className="offer-content-heading p-3 text-center">
+              <p className="f-10">Become a Member Today</p>
+              <h4 className="mb-0">
                 Turn Your Social Media Accounts into a Money Making Machine!
               </h4>
             </div>
-            <div class="offer-main-content px-3">
+            <div className="offer-main-content px-3">
               <p>
                 Do you know you can earn daily income by performing social media tasks such
                 as likes, follows, comments, shares, retweets etc. That is one of the many
                 benefits of becoming a member on Pexcel.
               </p>
-              <div class="alert alert-success">
+              <div className="alert alert-success">
                 We are currently running a promo that gives additional Cashback and Welcome
                 Bonus of ₦200 to new members. This offer lasts only till 30th September
               </div>
@@ -81,9 +81,9 @@ function AccToMoney(props) {
                 </li>
               </ul>
               <p>...and so much more benefits for you!</p>
-              {/* <!-- <div class="alert alert-info">
-                <h5 class="f-12">30 DAYS MONEY BACK GUARANTEE!!!</h5>
-                <p class="f-10">
+              {/* <!-- <div className="alert alert-info">
+                <h5 className="f-12">30 DAYS MONEY BACK GUARANTEE!!!</h5>
+                <p className="f-10">
                   If You Activate Your Membership with ₦1,000 and you don't make atleast
                   your ₦1,000 back within 30 days (ofcourse, you will make much more than
                   that), We will refund your money back to you. We are that confident. 100%
@@ -96,12 +96,12 @@ function AccToMoney(props) {
               </p>
             </div>
           </div>
-          <div class="_3ZJFUzGJWB" style={{width: "554px", position: "fixed"}}>
-            <div class="_3lbi0Ejea_">
+          <div className="_3ZJFUzGJWB" style={{width: "554px", position: "fixed"}}>
+            <div className="_3lbi0Ejea_">
               <p>Membership Fee</p>
               <h4>₦1,000</h4>
             </div>
-            <div class="_28npp8S53w"><button class="btn btn-coloured-heavy d-block btn-block">CLICK HERE TO PAY NOW</button></div>
+            <div className="_28npp8S53w"><button className="btn btn-coloured-heavy d-block btn-block">CLICK HERE TO PAY NOW</button></div>
           </div>
         </div>
       </div>

@@ -8,34 +8,34 @@ const Data = (props) => {
       <h5 className='pb-1'>Buy Data Bundle</h5>
       <hr />
 
-<p class="header-title1 pb-2">Balance: ₦0.00</p>
+<p className="header-title1 pb-2">Balance: ₦0.00</p>
 
-  <div class="">
+  <div className="">
   
-    <button type="button" class="btn btn-primary button position-relative me-3">
+    <button type="button" className="btn btn-primary button position-relative me-3">
       pending
       <br />
       (1,000,000,000)
-      <span hidden class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
+      <span hidden className="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
         1,000,000,000
-        <span class="visually-hidden">unread messages</span>
+        <span className="visually-hidden">unread messages</span>
       </span>
     </button>      
-    <button type="button" class="btn button btn-primary position-relative me-3">
+    <button type="button" className="btn button btn-primary position-relative me-3">
       In Process
       <br />
       (1,000,000,000)
 
-      <span hidden class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      <span hidden className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
         0
-        <span class="visually-hidden">unread messages</span>
+        <span className="visually-hidden">unread messages</span>
       </span>
     </button>      
-    <button type="button" class="btn button btn-primary position-relative me-2">
+    <button type="button" className="btn button btn-primary position-relative me-2">
       Successful
-      <span hidden class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      <span hidden className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
         0
-        <span class="visually-hidden">unread messages</span>
+        <span className="visually-hidden">unread messages</span>
       </span>
     </button>
   </div>
@@ -44,13 +44,13 @@ const Data = (props) => {
   </div>
   <form method="POST">
     <input type="hidden" name="csrfmiddlewaretoken" value="NJrnZLR1ppaT4rbrcuk63mmqceBttTnDk6SPUDjoSBK78CJTbbzmhOp6SeabTYfA" />
-    <div class="form-group mb-3 mt-3">
+    <div className="form-group mb-3 mt-3">
 
       <label style={{color: "green"}}>Select Network</label>
 
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-wifi"></i></span>
-        <select name="network" autofocus="" class="form-control network" id="network" required="">
+      <div className="input-group mb-3">
+        <span className="input-group-text" id="basic-addon1"><i className="fa-solid fa-wifi"></i></span>
+        <select name="network" autofocus="" className="form-control network" id="network" required="">
           <option value="" selected="">-----Select Network----</option>
           <option value="mtn">MTN</option>
           <option value="mtn">MTN Data Gifting</option>
@@ -62,42 +62,42 @@ const Data = (props) => {
         </select>      
       </div> 
     </div>
-    <div class="form-group mb-3 mt-3">
+    <div className="form-group mb-3 mt-3">
 
       <label style={{color: "green"}}>Select Data Plan</label>
 
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-wifi"></i></span>
-        <select name="network" autofocus="" class="form-control network" id="network" required="">
+      <div className="input-group mb-3">
+        <span className="input-group-text" id="basic-addon1"><i className="fa-solid fa-wifi"></i></span>
+        <select name="network" autofocus="" className="form-control network" id="network" required="">
           <option value="" selected="">---------</option>
         </select>      
       </div> 
     </div>
 
-    <div class="form-group mb-3">
+    <div className="form-group mb-3">
       <label style={{color: "green"}}>Price</label>
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1">&#8358;</span>
-        <input type="number" class="form-control" readonly="" placeholder="Select Network First" aria-label="Username" aria-describedby="basic-addon1" />
+      <div className="input-group mb-3">
+        <span className="input-group-text" id="basic-addon1">&#8358;</span>
+        <input type="number" className="form-control" readonly="" placeholder="Select Network First" aria-label="Username" aria-describedby="basic-addon1" />
       </div>
     </div>
 
-    <div class="form-group mb-3">
+    <div className="form-group mb-3">
       <label style={{color: "green"}}>Phone Number <small>(example: 08012345678)</small> </label>
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-mobile"></i></span>
-        <input type="number" class="form-control"  placeholder="Enter Phone Number" aria-label="Username" aria-describedby="basic-addon1" />
+      <div className="input-group mb-3">
+        <span className="input-group-text" id="basic-addon1"><i className="fa-solid fa-mobile"></i></span>
+        <input type="number" className="form-control"  placeholder="Enter Phone Number" aria-label="Username" aria-describedby="basic-addon1" />
       </div>
     </div>
 
-    <div class="form-group">
+    <div className="form-group">
       {/* <a href="/dashboard/fund-wallet/" id="insufficient" hidden="">
-      <button type="button" class="btn btn-danger btn-block">
+      <button type="button" className="btn btn-danger btn-block">
       Insufficient balance for this plan.<br />Click here to add money to your wallet.
       </button>
       </a> */}
-      <div class="form-group mb-0 text-center col-12">
-        <div class="col-sm-12"><button class="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">PROCEED</button></div>
+      <div className="form-group mb-0 text-center col-12">
+        <div className="col-sm-12"><button className="_3ApY6Q53at btn btn-block btn-coloured-heavy" type="submit">PROCEED</button></div>
       </div>
     </div>
   </form>
