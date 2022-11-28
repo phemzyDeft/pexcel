@@ -4,14 +4,10 @@ import { Link } from "react-router-dom";
 import { logo } from "../../assets";
 import axios from "axios";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 function Registration(props) {
   // console.log(process.env.REACT_APP_API_BASE_URL);
   // const [credentials, setCredentials] = useState();
-
-  const toaster = () => toast("!wow, so easy");
 
   const baseURL = process.env.REACT_APP_API_BASE_URL;
   const [formData, setformData] = useState({
@@ -19,7 +15,7 @@ function Registration(props) {
     callback_url: "https://example.com",
   });
   const [passNotMatch, setpassNotMatch] = useState(false);
-  const [showLoader, setshowLoader] = useState(false);
+  // const [showLoader, setshowLoader] = useState(false);
   const [fetchRes, setfetchRes] = useState({
     show: false,
     message: "",
@@ -84,7 +80,7 @@ function Registration(props) {
                   <div className="alert alert-info">{fetchRes.message}</div>
                 )}
                 {/* ====== End Display error and messages===== */}
-                <form method="POST" onSubmit={processForm}>
+                <form onSubmit={processForm} className="registered-form">
                   <div className="row">
                     <div className="col-md-4 pt-3">
                       <div className="form-group">
@@ -114,7 +110,7 @@ function Registration(props) {
                           type="text"
                           name="first_name"
                           auhreffocus=""
-                          placeholder="Enter first name here"
+                          placeholder="enter first name"
                           className="form-control"
                           required=""
                           id="id_first_name"
@@ -129,7 +125,7 @@ function Registration(props) {
                         <input
                           type="text"
                           name="last_name"
-                          placeholder="Enter last name here"
+                          placeholder="enter last name"
                           className="form-control"
                           required=""
                           id="id_last_name"
@@ -146,7 +142,7 @@ function Registration(props) {
                           name="phone_number"
                           maxLength="11"
                           minLength="11"
-                          placeholder="Enter phone number here"
+                          placeholder="phone number"
                           className="form-control"
                           required=""
                           id="id_phone"
@@ -209,6 +205,7 @@ function Registration(props) {
                           onChange={handleChange}
                         />
                         <a
+                          href="#*"
                           onClick={passwordToggle}
                           className="password__icon__toggle"
                         >
@@ -241,6 +238,7 @@ function Registration(props) {
                           }}
                         />
                         <a
+                          href="#*"
                           onClick={passwordToggle}
                           className="password__icon__toggle"
                         >

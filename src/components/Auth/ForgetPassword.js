@@ -24,13 +24,7 @@ const ForgetPassword = (props) => {
                 <div></div>
                 {/*-- End Display error and messages */}
 
-                <form method="POST">
-                  <input
-                    type="hidden"
-                    name="csrfmiddlewaretoken"
-                    value="mesV4IdkTQXsuSm79ioQMoBuB6h1gAi6h6pYnO498sLUUl5puxhGaG6FgfvwXjeu"
-                  />
-
+                <form className="forget__password">
                   <div className="row">
                     <div className="col-md-12 pt-3">
                       <div className="form-group">

@@ -10717,3 +10717,29 @@ label {
   left: 0px; 
   will-change: transform;
 }
+
+.Login .form-control:focus{
+  outline: 1px solid blue !important;
+  box-shadow: none;
+}
+
+.forget__password .form-control:focus{
+  outline: 1px solid blue !important;
+  box-shadow: none;
+}
+
+.Airtime #basic-addon1, 
+.Data #basic-addon1,
+.Cable #basic-addon1,
+.Electricity #basic-addon1{
+  background: #5f04f6;
+  color: white;
+}
+
+.Airtime .form-control:focus, 
+.Data .form-control:focus,
+.Cable .form-control:focus,
+.Electricity .form-control:focus{
+  outline: 1px solid blue !important;
+  box-shadow: none;
+}

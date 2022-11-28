@@ -22,3 +22,9 @@ input:focus{
     cursor: pointer;
     transition: 3s ease-in-out;
 }
+
+
+.registered-form .form-control:focus{
+    outline: 1px solid blue !important;
+    box-shadow: none;
+}

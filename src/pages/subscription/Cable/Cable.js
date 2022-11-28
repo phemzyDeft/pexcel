@@ -10,40 +10,34 @@ const Cable = (props) => {
 
 <p class="header-title1 pb-2">Balance: ₦0.00</p>
 
-  <div class="">
-  
-    <button type="button" class="btn btn-primary button position-relative me-3">
-      pending
-      <br />
-      (1,000,000,000)
-      <span hidden class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
-        1,000,000,000
-        <span class="visually-hidden">unread messages</span>
-      </span>
-    </button>      
-    <button type="button" class="btn button btn-primary position-relative me-3">
-      In Process
-      <br />
-      (1,000,000,000)
-
-      <span hidden class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-        0
-        <span class="visually-hidden">unread messages</span>
-      </span>
-    </button>      
-    <button type="button" class="btn button btn-primary position-relative me-2">
-      Successful
-      <span hidden class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-        0
-        <span class="visually-hidden">unread messages</span>
-      </span>
-    </button>
-  </div>
+      <div class="d-flex justify-content-start">
+        <button
+          type="button"
+          class="btn btn-primary button position-relative me-3"
+        >
+          pending
+          <br />
+          (1,000,000)
+        </button>
+        <button
+          type="button"
+          class="btn button btn-primary position-relative me-3"
+        >
+          In Process
+          <br />
+          (1,000,000)
+        </button>
+        <button
+          type="button"
+          class="btn button btn-primary position-relative me-2"
+        >
+          Successful
+        </button>
+      </div>
   
   <div> 
   </div>
-  <form method="POST">
-    <input type="hidden" name="csrfmiddlewaretoken" value="NJrnZLR1ppaT4rbrcuk63mmqceBttTnDk6SPUDjoSBK78CJTbbzmhOp6SeabTYfA" />
+  <form className='Cable'>
     <div class="form-group mb-3 mt-3">
 
       <label style={{color: "green"}}>Tv Subcription</label>

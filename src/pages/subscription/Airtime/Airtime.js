@@ -1,14 +1,10 @@
-import React, {useState} from "react";
+// import React, { useState } from "react";
 import "./Airtime.css";
 
-
 const Airtime = (props) => {
+  // const [plans, setplans] = useState([]);
 
-  const [plans, setplans] = useState([])
-
-  const getPlans = (network) => {
-    
-  }
+  // const getPlans = (network) => {};
 
   return (
     <div className="col-lg-6 bg-green bg-white pb-3 pt-3">
@@ -17,21 +13,14 @@ const Airtime = (props) => {
 
       <p class="header-title1 pb-2">Balance: ₦0.00</p>
 
-      <div class="">
+      <div class="d-flex justify-content-start">
         <button
           type="button"
           class="btn btn-primary button position-relative me-3"
         >
           pending
           <br />
-          (1,000,000,000)
-          <span
-            hidden
-            class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger"
-          >
-            1,000,000,000
-            <span class="visually-hidden">unread messages</span>
-          </span>
+          (1,000,000)
         </button>
         <button
           type="button"
@@ -39,30 +28,18 @@ const Airtime = (props) => {
         >
           In Process
           <br />
-          (1,000,000,000)
-          <span
-            hidden
-            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-          >
-            0<span class="visually-hidden">unread messages</span>
-          </span>
+          (1,000,000)
         </button>
         <button
           type="button"
           class="btn button btn-primary position-relative me-2"
         >
           Successful
-          <span
-            hidden
-            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-          >
-            0<span class="visually-hidden">unread messages</span>
-          </span>
         </button>
       </div>
 
       <div></div>
-      <form method="POST">
+      <form method="POST" className="Airtime">
         <div class="form-group mb-3 mt-3">
           <label style={{ color: "green" }}>Select Network</label>
 

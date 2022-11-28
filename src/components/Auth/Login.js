@@ -26,7 +26,7 @@ const Login = (props) => {
                 <div></div>
                 {/*-- End Display error and messages */}
 
-                <form method="POST">
+                <form className="Login">
                   <input type="hidden" />
 
                   <div className="row">
