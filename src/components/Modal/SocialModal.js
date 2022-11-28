@@ -10,7 +10,7 @@ const SocialModal = (props) => {
       <div id="SocialMenuModal" className="modal fade .show" tabIndex="-1" role="dialog" aria-labelledby="SocialMenuModal" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered" role="document">
           <div className="_1Ke6CuvM7B modal-content">
-            <div id=".SocialMenuModalBody" className="_2utG0cqx22 modal-body">
+          <div id=".SocialMenuModalBody" className="_2utG0cqx22 modal-body">
               <button className="n8qbaM6QCa" data-bs-dismiss="modal"><span aria-hidden='true' className="fas fa-times" ></span></button>
               <div className="_1R8FOkFWxE d-flex flex-column align-items-center">
                 <div className="_3btMEYQwM9">

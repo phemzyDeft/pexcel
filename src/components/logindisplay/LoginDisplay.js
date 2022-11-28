@@ -7,7 +7,7 @@ const LoginDisplay = (props) => {
     <div className='col-lg-6 col-12 px-0'>
     <div className="_3amMSmObol">
       <div className="_5ERPmRfOLO d-flex justify-content-between">
-        <p>Welcome, user</p>
+        <p>Welcome, duser</p>
         <p className="ml-auhref"><Link to="#/logout"><i className="fas fa-power-off"></i> Logout</Link></p>
       </div>
       <div className="pScdTmddwf">
