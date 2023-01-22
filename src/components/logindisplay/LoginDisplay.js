@@ -21,9 +21,7 @@ const LoginDisplay = (props) => {
   const navigate = useNavigate();
 
   const logOut = () => {
-    localStorage.removeItem(`${hostname}_token`);
-    localStorage.removeItem(`${hostname}_data`);
-    localStorage.removeItem(`${hostname}_isLoggedIn`);
+    localStorage.clear();
     navigate("/login");
   };
 

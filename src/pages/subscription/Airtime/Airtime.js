@@ -7,40 +7,39 @@ import "./Airtime.css";
 const Airtime = (props) => {
   const base_url = process.env.REACT_APP_BASE_URL;
 
-  const [loading, setLoading] = useState(false)
-  const [phone_numbers, setphone_numbers] = useState([])
+  const [loading, setLoading] = useState(false);
+  const [phone_numbers, setphone_numbers] = useState([]);
   const [airtimeForm, setAirtimeForm] = useState({
     amount: "",
     callback_url: build_callback_url("paystack"),
-  })
+  });
 
   const handleChange = (e) => {
-    const {name, value} = e.target;
-    setAirtimeForm({...airtimeForm, [name]: value});
-    console.log(name)
-    console.log(value)
+    const { name, value } = e.target;
+    setAirtimeForm({ ...airtimeForm, [name]: value });
+    console.log(name);
+    console.log(value);
   };
 
-  const navigate = useNavigate()
-  const buyAirtime =async(e)=>{
+  const navigate = useNavigate();
+  const buyAirtime = async (e) => {
     e.preventDefault();
 
     try {
       const payload = {
         airtimeForm,
-        phone_numbers
-      }
-      setLoading(true)
-      const req = await axios.post(`${base_url}/airtime/buy-airtime`, payload)
-      const res = await req.data
-      console.log(res)
-      navigate("paystack.com")
-
+        phone_numbers,
+      };
+      setLoading(true);
+      const req = await axios.post(`${base_url}/airtime/buy-airtime`, payload);
+      const res = await req.data;
+      console.log(res);
+      navigate("paystack.com");
     } catch (error) {
-      console.log(error)
-      setLoading(false)
-    }      
-  }
+      console.log(error);
+      setLoading(false);
+    }
+  };
   return (
     <div className="col-lg-6 bg-green bg-white pb-3 pt-3">
       <h5 className="pb-1">Buy Airtime/VTU</h5>

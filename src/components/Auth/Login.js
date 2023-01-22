@@ -47,7 +47,6 @@ const Login = (props) => {
         const data = JSON.stringify(res.data);
         localStorage.setItem(`${hostname}_data`, data);
         localStorage.setItem(`${hostname}_token`, JSON.stringify(res.token));
-        localStorage.setItem(`${hostname}_isLoggedIn`, true);
 
         setTimeout(() => {
           navigate("/fundwallet");

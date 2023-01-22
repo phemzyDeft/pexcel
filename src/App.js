@@ -21,8 +21,8 @@ import ForgotpasswordRoute from "./components/Routes/ForgotpasswordRoute";
 import Faq from "./pages/Faqsection/Faqpagesection";
 import SidebarMobile from "./components/navbar/SidebarMobile";
 import RightSideBar from "./components/RightSide/RightSideBar";
-// import Register from "./components/Auth/Register";
 import "react-toastify/dist/ReactToastify.css";
+import Protectedroute from "./utils/Protectedroute";
 
 function App() {
   return (
@@ -31,18 +31,15 @@ function App() {
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
-            <Route path="/airtime" element={<Airtime />} />
             <Route path="/blog" element={<BlogDisplay />} />
             <Route path="/cable" element={<Cable />} />
             <Route path="/data" element={<Data />} />
-            <Route path="/electricity" element={<Electricity />} />
-            <Route path="/logindisplay" element={<LoginDisplay />} />
+            {/* <Route path="/electricity" element={<Electricity />} /> */}
             <Route path="/referral" element={<Referrer />} />
             <Route path="/profile" element={<UserRoute />} />
             <Route path="/more" element={<More />} />
             <Route path="/fundwallet" element={<LoginDisplay />} />
             <Route path="/register" element={<RegisterRoute />} />
-            {/* <Route path="/register" element={<Register />} /> */}
             <Route path="/login" element={<LoginRoute />} />
             <Route path="/forgotpassword" element={<ForgotpasswordRoute />} />
             <Route path="/faq" element={<Faq />} />
@@ -50,16 +47,48 @@ function App() {
           <Route path="/menu" element={<SidebarMobile />} />
           <Route path="/activities" element={<RightSideBar />} />
 
-          <Route element={<PrivateRoutes />}>
-            <Route path="/more" element={<More />} />
-            <Route path="/cable" element={<Cable />} />
-            <Route path="/airtime" element={<Airtime />} />
-            <Route path="/data" element={<Data />} />
-            <Route path="/electricity" element={<Electricity />} />
+          <Route
+            path="/more"
+            element={
+              <Protectedroute>
+                <More />
+              </Protectedroute>
+            }
+          />
+          <Route
+            path="/cable"
+            element={
+              <Protectedroute>
+                <Cable />
+              </Protectedroute>
+            }
+          />
+          <Route
+            path="/airtime"
+            element={
+              <Protectedroute>
+                <Airtime />
+              </Protectedroute>
+            }
+          />
+          <Route
+            path="/data"
+            element={
+              <Protectedroute>
+                <Data />
+              </Protectedroute>
+            }
+          />
+          <Route
+            path="/electricity"
+            element={
+              <Protectedroute>
+                <Electricity />
+              </Protectedroute>
+            }
+          />
 
-            {/* <Route path='/airtime-to-cash' element={<AirtimeToCash />} /> */}
-            <Route path="/logindisplay" element={<LoginDisplay />} />
-          </Route>
+          {/* <Route path='/airtime-to-cash' element={<AirtimeToCash />} /> */}
         </Routes>
       </div>
     </div>
