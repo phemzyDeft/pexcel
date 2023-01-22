@@ -28,7 +28,7 @@ const ForgetPassword = (props) => {
                   <div className="row">
                     <div className="col-md-12 pt-3">
                       <div className="form-group">
-                        <label htmlFor="id_username">Email</label>
+                        <label htmlhtmlFor="id_username">Email</label>
                         <input
                           type="email"
                           name="email"

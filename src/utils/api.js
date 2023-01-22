@@ -1,4 +1,10 @@
-const url = process.env.REACT_APP_BASE_URL;
-console.log(url);
-console.log(process.env);
-console.log(`what's wrong`, process.env)
+import axios from "axios";
+
+const instance = axios.create({
+  baseURL: process.env.REACT_APP_API_BASE_URL,
+});
+console.log(baseURL);
+
+instance.defaults.headers.common["Authorization"] = "Auth from instance";
+
+export default instance;

@@ -1,12 +1,74 @@
-// import axios from 'axios';
-import React from "react";
-import { Link } from "react-router-dom";
+import axios from "axios";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { logo } from "../../assets";
 import "./auth.css";
+import { toast, ToastContainer } from "react-toastify";
 
 const Login = (props) => {
+  const base_url = process.env.REACT_APP_BASE_URL;
+
+  // const [toggle, settoggle] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const [formData, setformData] = useState({
+    user: "",
+    password: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setformData({ ...formData, [name]: value });
+  };
+
+  const navigate = useNavigate();
+
+  // const togglePassword = () => {
+  //   settoggle(!toggle);
+  // };
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    const url = `${base_url}/account/login`;
+    const headers = {};
+
+    try {
+      setLoading(true);
+      const req = await axios.post(url, formData, { headers });
+      const res = await req.data;
+      console.log(res);
+      console.log(req.data);
+
+      var acceptedStatus = [200, 201];
+      if (acceptedStatus.includes(req.status)) {
+        // Save token in localStorage for future usage
+        toast.error(res.detail, { hideProgressBar: true, type: "success" });
+        var hostname = document.location.hostname;
+        const data = JSON.stringify(res.data);
+        localStorage.setItem(`${hostname}_data`, data);
+        localStorage.setItem(`${hostname}_token`, JSON.stringify(res.token));
+        localStorage.setItem(`${hostname}_isLoggedIn`, true);
+
+        setTimeout(() => {
+          navigate("/fundwallet");
+          toast.error(`Welcome ${res.data.first_name}`, {
+            hideProgressBar: true,
+            type: "success",
+          });
+        }, 2000);
+      }
+      setLoading(false);
+    } catch (e) {
+      setLoading(false);
+      const err = e.response.data.detail;
+      toast.dark(err, { hideProgressBar: true, type: "error" });
+      console.log(err);
+    }
+  };
+
   return (
     <div className="account-pages .mt-5 .mb-5 .pt-5">
+      <ToastContainer />
       <div className=".container">
         <div className="row justify-content-center">
           <div className=".col-md-5">
@@ -26,47 +88,62 @@ const Login = (props) => {
                 <div></div>
                 {/*-- End Display error and messages */}
 
-                <form className="Login">
+                <form className="Login" onSubmit={handleLogin}>
                   <input type="hidden" />
 
                   <div className="row">
                     <div className="col-md-12 pt-3">
                       <div className="form-group">
-                        <label htmlFor="id_username">Username</label>
+                        <label htmlhtmlFor="id_username">Username</label>
                         <input
+                          name="user"
                           type="text"
                           autofocus=""
                           placeholder="Enter username here"
                           className="form-control"
                           required=""
-                          id="id_username"
+                          onChange={handleChange}
+                          value={formData.user}
                         />
                       </div>
                     </div>
 
+                    {loading && (
+                      <div>
+                        <div class="text-center">
+                          <div
+                            class="spinner-border text-primary"
+                            role="status"
+                          >
+                            <span class="visually-hidden">Loading...</span>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                     <div className="col-md-12 pt-3">
                       <div className="form-group">
-                        <label htmlFor="id_password">Password</label>
+                        <label htmlhtmlFor="id_password">Password</label>
                         <input
+                          name="password"
                           type="password"
                           placeholder="Enter password here"
                           className="form-control"
                           required=""
-                          id="id_password"
+                          onChange={handleChange}
+                          value={formData.password}
                         />
                       </div>
                     </div>
                   </div>
-
-                  {/* <div>{message ? <p>{message}</p>: null}</div> */}
 
                   <div className="form-group mb-0 text-center pt-4 col-12">
                     <div className="col-sm-12">
                       <button
                         className="_3ApY6Q53at btn btn-block btn-coloured-heavy"
                         type="submit"
+                        disabled={loading}
                       >
-                        SIGN IN
+                        {loading ? "loading..." : "SIGN IN"}
                       </button>
                     </div>
                   </div>

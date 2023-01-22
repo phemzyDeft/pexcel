@@ -25,23 +25,7 @@ const AirtimeSidebar = (props) => {
         <div>
           <div className="_2_XPuXuhdw"><Link to="/electricity"><i className="fas fa-list"></i><span>Electricity</span></Link></div>
         </div>
-        {/* <div>
-          <div className="_2_XPuXuhdw"><Link to="/airtime-to-cash"><i className="fas fa-list"></i><span>AirtimeToCash</span></Link></div>
-        </div> */}
       </div>
-      {/* <div className="_2pTwXAVqNQ">
-        <div className="_1v_ayYi5wJ">
-          <p>Sort By:</p>
-          <select className="form-control cushrefm-select">
-            <option value="Most Popular">Most Popular</option>
-            <option value="Price (High)">Price (High)</option>
-            <option value="Price (Low)">Price (Low)</option>
-            <option value="Delivery Date">Delivery Date</option>
-            <option value="New Arrivals">New Arrivals</option>
-            <option value="What You Like">What You Like</option>
-          </select>
-        </div>
-      </div> */}
     </div>
   </div>
 

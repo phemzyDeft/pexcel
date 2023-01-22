@@ -9,10 +9,10 @@ const Data = (props) => {
 
       <p className="header-title1 pb-2">Balance: ₦0.00</p>
 
-      <div class="d-flex justify-content-start">
+      <div className="d-flex justify-content-start">
         <button
           type="button"
-          class="btn btn-primary button position-relative me-3"
+          className="btn btn-primary button position-relative me-3"
         >
           pending
           <br />
@@ -20,7 +20,7 @@ const Data = (props) => {
         </button>
         <button
           type="button"
-          class="btn button btn-primary position-relative me-3"
+          className="btn button btn-primary position-relative me-3"
         >
           In Process
           <br />
@@ -28,7 +28,7 @@ const Data = (props) => {
         </button>
         <button
           type="button"
-          class="btn button btn-primary position-relative me-2"
+          className="btn button btn-primary position-relative me-2"
         >
           Successful
         </button>
@@ -98,7 +98,7 @@ const Data = (props) => {
             <input
               type="number"
               className="form-control"
-              readonly=""
+              readOnly=""
               placeholder="Select Network First"
               aria-label="Username"
               aria-describedby="basic-addon1"

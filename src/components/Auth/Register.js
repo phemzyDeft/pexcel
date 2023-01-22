@@ -1,96 +1,65 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Registration.css";
 import { Link, useNavigate } from "react-router-dom";
 import { logo } from "../../assets";
-import axios from "axios";
+// import axios from "axios";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
-import { build_callback_url } from "../../utils/Utils";
-import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import AuthService from "../../utils/services/auth.services";
 
-function Registration(props) {
-  const base_url = process.env.REACT_APP_BASE_URL;
-  // console.log(baseURL)
+function Register(props) {
+  // console.log(process.env.REACT_APP_API_BASE_URL);
+  // const [credentials, setCredentials] = useState();
 
-  const [toggle, settoggle] = useState(false);
-  const [acc_type, setAcc_type] = useState([]);
-  const [loading, setLoading] = useState(false);
   const [formData, setformData] = useState({
-    account_type: "",
-    callback_url: build_callback_url("dashboard"),
-    first_name: "",
-    last_name: "",
-    phone_number: "",
-    email: "",
-    password: "",
-    referral_id: "",
+    account_type: 1,
+    callback_url: "https://example.com",
   });
-
-  console.log(formData);
-
-  const [passwordMatch, setpasswordMatch] = useState(false);
-
-  useEffect(() => {
-    fetchData();
-  }, []);
+  const [passNotMatch, setpassNotMatch] = useState(false);
+  // const [showLoader, setshowLoader] = useState(false);
+  const [fetchRes, setfetchRes] = useState({
+    show: false,
+    message: "",
+  });
+  const [togglepassword, settogglepassword] = useState(false);
+  const [isLoading, setisLoading] = useState(false);
 
   const navigate = useNavigate();
-
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setformData({ ...formData, [name]: value });
-    // alert(name)
+    const name = e.target.name;
+    const value = e.target.value;
+    setformData((values) => ({ ...values, [name]: value }));
   };
 
-  const handleSubmit = async (e) => {
+  const processForm = async (e) => {
     e.preventDefault();
+    setisLoading(true);
+    // setloading(true);
 
     try {
-      setLoading(true);
-      const req = await axios.post(`${base_url}/account/register`, formData);
-      const res = await req.data;
-      var acceptedStatus = [200, 201];
-      if (acceptedStatus.includes(req.status)) {
-        toast.error(res.detail, { hideProgressBar: true, type: "success" });
-
-        // Save token in localStorage for future usage
-        var hostname = document.location.hostname;
-        const data = JSON.stringify(res.data);
-        localStorage.setItem(`${hostname}_data`, data);
-        // toast.error(`Welcome ${res.data.first_name}`, {hideProgressBar: true, type: 'success'})
-
-        setTimeout(() => {
-          navigate("/login");
-        }, 2000);
-      }
-      setLoading(false);
+      AuthService.register(formData).then((response) => {
+        setfetchRes({
+          show: true,
+          message: response.data.details,
+        });
+        navigate("/login");
+      });
     } catch (error) {
-      console.log(error);
-      setLoading(false);
-      var detail = error.response.data.detail;
-      toast.dark(detail, { hideProgressBar: true, type: "error" });
+      setfetchRes({
+        show: true,
+        message: error.response.data.details,
+      });
+      setisLoading(false);
     }
+    // console.log(AuthService);
+    console.log(fetchRes.message);
   };
 
-  const fetchData = async () => {
-    try {
-      const response = await axios.get(`${base_url}/settings/account-types`);
-      console.log(response);
-      // alert('1')
-      setAcc_type(response.data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  const togglePassword = () => {
-    settoggle(!toggle);
+  const passwordToggle = () => {
+    settogglepassword(!togglepassword);
   };
 
   return (
     <div className="account-pages .mt-5 .mb-5">
-      {loading && <p>loading...</p>}
-      <ToastContainer />
       <div className=".container .pt-5">
         <div className="row justify-content-center">
           <div className=".col-md-7">
@@ -111,30 +80,28 @@ function Registration(props) {
                   </p>
                 </div>
                 {/* ====== Display error and messages ======= */}
-
+                {fetchRes.show && (
+                  <div className="alert alert-info">{fetchRes.message}</div>
+                )}
                 {/* ====== End Display error and messages===== */}
-                <form onSubmit={handleSubmit} className="registered-form">
+                <form onSubmit={processForm} className="registered-form">
                   <div className="row">
                     <div className="col-md-4 pt-3">
-                      <div>
+                      <div className="form-group">
                         <label htmlhtmlFor="id_first_name">
                           Select Account Type
                         </label>
                         <select
-                          id=""
                           name="account_type"
-                          value={formData.acc_type}
-                          onChange={handleChange}
+                          id=""
                           className="form-control"
+                          value={formData.account_type || ""}
+                          onChange={handleChange}
                         >
-                          {acc_type.results?.map((res) => {
-                            const { id, name, registration_fee } = res;
-                            return (
-                              <option key={id} value={id} required>
-                                {name} ( &#8358; {registration_fee} )
-                              </option>
-                            );
-                          })}
+                          <option value="0" selected>
+                            Free Plan
+                          </option>
+                          <option value="1">Reseller Plan (₦1,000)</option>
                         </select>
                       </div>
                     </div>
@@ -142,28 +109,31 @@ function Registration(props) {
                   <div className="row">
                     <div className="col-md-4 pt-3">
                       <div className="form-group">
-                        <label htmlFor="id_first_name">First Name</label>
+                        <label htmlhtmlFor="id_first_name">First Name</label>
                         <input
                           type="text"
                           name="first_name"
+                          auhreffocus=""
                           placeholder="enter first name"
                           className="form-control"
-                          required
-                          value={formData.first_name}
+                          required=""
+                          id="id_first_name"
+                          value={formData.first_name || ""}
                           onChange={handleChange}
                         />
                       </div>
                     </div>
                     <div className="col-md-4 pt-3">
                       <div className="form-group">
-                        <label htmlFor="id_last_name">Last Name</label>
+                        <label htmlhtmlFor="id_last_name">Last Name</label>
                         <input
                           type="text"
                           name="last_name"
                           placeholder="enter last name"
                           className="form-control"
-                          required
-                          value={formData.last_name}
+                          required=""
+                          id="id_last_name"
+                          value={formData.last_name || ""}
                           onChange={handleChange}
                         />
                       </div>
@@ -174,12 +144,13 @@ function Registration(props) {
                         <input
                           type="text"
                           name="phone_number"
-                          maxLength={11}
-                          minLength={11}
+                          maxLength="11"
+                          minLength="11"
                           placeholder="phone number"
                           className="form-control"
-                          required
-                          value={formData.phone_number}
+                          required=""
+                          id="id_phone"
+                          value={formData.phone_number || ""}
                           onChange={handleChange}
                         />
                       </div>
@@ -194,8 +165,9 @@ function Registration(props) {
                           name="email"
                           placeholder="Enter email here"
                           className="form-control"
-                          required
-                          value={formData.email}
+                          required=""
+                          id="id_email"
+                          value={formData.email || ""}
                           onChange={handleChange}
                         />
                       </div>
@@ -207,11 +179,12 @@ function Registration(props) {
                           type="text"
                           name="username"
                           maxLength="20"
+                          auhreffocus=""
                           placeholder="Enter username here"
                           className="form-control"
-                          required
+                          required=""
                           id="id_username"
-                          value={formData.username}
+                          value={formData.username || ""}
                           onChange={handleChange}
                         />
                       </div>
@@ -225,25 +198,27 @@ function Registration(props) {
                       >
                         <label htmlhtmlFor="id_password1">Password</label>
                         <input
-                          type={toggle ? "text" : "password"}
+                          type={togglepassword ? "text" : "password"}
                           name="password"
-                          minLength={6}
+                          minLength="8"
                           placeholder="Enter password here"
                           className="form-control"
                           required
-                          value={formData.password}
+                          id="id_password1"
+                          value={formData.password || ""}
                           onChange={handleChange}
                         />
-                        <div
-                          onClick={togglePassword}
+                        <a
+                          href="#*"
+                          onClick={passwordToggle}
                           className="password__icon__toggle"
                         >
-                          {toggle ? (
-                            <AiOutlineEyeInvisible color="blue" />
+                          {togglepassword ? (
+                            <AiOutlineEye />
                           ) : (
-                            <AiOutlineEye color="blue" />
+                            <AiOutlineEyeInvisible />
                           )}
-                        </div>
+                        </a>
                       </div>
                     </div>
                     <div className="col-md-6 pt-3">
@@ -255,46 +230,59 @@ function Registration(props) {
                           Confirm Password
                         </label>
                         <input
-                          type={toggle ? "text" : "password"}
+                          type={togglepassword ? "text" : "password"}
                           name="password2"
-                          minLength={6}
+                          minLength="8"
                           placeholder="Retype password here"
                           className="form-control"
-                          required
+                          required=""
+                          id="id_password2"
                           onChange={(e) => {
                             e.target.value !== formData.password
-                              ? setpasswordMatch(true)
-                              : setpasswordMatch(false);
+                              ? setpassNotMatch(true)
+                              : setpassNotMatch(false);
                           }}
                         />
-                        <div
-                          onClick={togglePassword}
+                        <a
+                          href="#*"
+                          onClick={passwordToggle}
                           className="password__icon__toggle"
                         >
-                          {toggle ? (
-                            <AiOutlineEyeInvisible color="blue" />
+                          {togglepassword ? (
+                            <AiOutlineEye />
                           ) : (
-                            <AiOutlineEye color="blue" />
+                            <AiOutlineEyeInvisible />
                           )}
-                        </div>
+                        </a>
                       </div>
                     </div>
                   </div>
-                  {passwordMatch && (
+                  {passNotMatch && (
                     <small className="text-danger">
                       Password does not match
                     </small>
                   )}
-                  <div className="form-group mb-0 text-center pt-4 col-12">
+                  <div className="form-group">
+                    <button
+                      className="btn btn-primary btn-block"
+                      disabled={isLoading}
+                    >
+                      {isLoading && (
+                        <span className="spinner-border spinner-border-sm"></span>
+                      )}
+                      <button type="submit">SIGN UP</button>
+                    </button>
+                  </div>
+                  {/* <div className="form-group mb-0 text-center pt-4 col-12">
                     <div className="col-sm-12">
                       <button
                         className="_3ApY6Q53at btn btn-block btn-coloured-heavy"
                         type="submit"
                       >
-                        {loading ? "loading..." : "SIGN UP"}
+                        SIGN UP
                       </button>
                     </div>
-                  </div>
+                  </div> */}
                 </form>
                 <div className="row mt-3">
                   <div className="col-12 text-center">
@@ -319,7 +307,7 @@ function Registration(props) {
         </div>
         {/* === end row === */}
 
-        {/* <div className="footer-bothrefm mt-3">
+        <div className="footer-bothrefm mt-3">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 text-center">
@@ -333,11 +321,11 @@ function Registration(props) {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       {/* === end container === */}
     </div>
   );
 }
 
-export default Registration;
+export default Register;
